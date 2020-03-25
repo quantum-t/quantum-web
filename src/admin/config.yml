@@ -126,10 +126,6 @@ collections:
   - label: "references"
     name: "references"
     files:
-      - label: "references"
-        name: "references"
-        delete: false
-        file: "src/_data/references.json"
       - label: "References"
         name: "refs"
         delete: false
