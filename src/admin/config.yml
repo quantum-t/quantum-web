@@ -58,18 +58,6 @@ collections:
         "No spaces and # allowed in tags. Please separate multiple tags with comma.",]
       }
       - {label: "Body", name: "body", widget: "markdown"}
-   - name: "References"
-    label: "references"
-    folder: "src/references"
-      - label: "Refs"
-        name: "refs"
-        widget: "list"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/reference.njk"}
-          - {label: "referee Name", name: "refereeName", widget: "string", required: false}
-          - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
-          - {label: "background Image", name: "background", widget: "image", required: false}
-          - {label: "Reference", name: "Reference", widget: "String"}
   - label: "Globals"
     name: "globals"
     files:
@@ -136,3 +124,24 @@ collections:
             name: "fonts"
             widget: "hidden"
             default: { "base": "\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'\"", "serif": "\"'Lora', serif\""}
+  - label: "references"
+    name: "references"
+    files:
+      - label: "references"
+        name: "references"
+        delete: false
+        file: "src/_data/references.json"
+      - label: "References"
+        name: "refs"
+        delete: false
+        file: "src/_data/references.json"
+        fields:
+          - label: "References"
+            name: "references"
+            widget: "list"
+            fields:
+              - {label: "referee Name", name: "refereeName", widget: "string", required: false}
+              - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
+              - {label: "background Image", name: "background", widget: "image", required: false}
+              - {label: "Reference", name: "Reference", widget: "String"}
+              - {label: "button", name: "showButton", widget: "boolean", required: false}
