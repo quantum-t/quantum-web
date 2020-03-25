@@ -7,7 +7,7 @@
   {{ content | safe }}
 {% endset %}
 
-{# Post list content #}
+<!-- {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
 
@@ -15,12 +15,12 @@
 {% if postListItems.length < collections.posts.length %} 
   {% set paginationNextText = archiveButtonText %}
   {% set paginationNextUrl = '/archive' %}
-{% endif %}
+{% endif %} -->
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    <!-- {% include "partials/components/post-list.njk" %} -->
     {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}
