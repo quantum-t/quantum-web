@@ -58,16 +58,18 @@ collections:
         "No spaces and # allowed in tags. Please separate multiple tags with comma.",]
       }
       - {label: "Body", name: "body", widget: "markdown"}
-   - name: "reference"
-    label: "reference"
+   - name: "References"
+    label: "references"
     folder: "src/references"
-    create: true
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/reference.njk"}
-      - {label: "referee Name", name: "refereeName", widget: "string", required: false}
-      - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
-      - {label: "background Image", name: "background", widget: "image", required: false}
-      - {label: "Reference", name: "Reference", widget: "String"}
+      - label: "Refs"
+        name: "refs"
+        widget: "list"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/reference.njk"}
+          - {label: "referee Name", name: "refereeName", widget: "string", required: false}
+          - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
+          - {label: "background Image", name: "background", widget: "image", required: false}
+          - {label: "Reference", name: "Reference", widget: "String"}
   - label: "Globals"
     name: "globals"
     files:
