@@ -6,11 +6,6 @@
       "external": false
     },
     {
-      "text": "LinkedIn",
-      "url": "https://www.linkedin.com/in/marybethhosking/",
-      "external": true
-    },
-    {
       "text": "Client Corner",
       "url": "/client-corner"
     },
@@ -21,6 +16,11 @@
     {
       "text": "Programs",
       "url": "/programs"
+    },
+    {
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/marybethhosking/",
+      "external": true
     }
   ]
 }
