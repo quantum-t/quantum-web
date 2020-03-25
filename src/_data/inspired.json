@@ -2,7 +2,8 @@
   "inspired": [
     {
       "Reference": "Reach for the stars and you will touch the moon",
-      "background": "images/reach-for-star.svg"
+      "background": "images/reach-for-star.svg",
+      "source": ""
     }
   ]
 }
