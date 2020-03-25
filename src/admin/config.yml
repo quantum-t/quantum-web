@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: quantum-t/quantum-web
+  name: git-gateway
   branch: master
 site_url: "https://github.com/quantum-t/quantum-web"
 media_folder: "src/images"
