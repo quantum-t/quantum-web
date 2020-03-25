@@ -1,8 +1,3 @@
-<!-- {# update later to actual setting #}
-  {% if site.shortDesc %}
-     {% include "partials/components/signup-form.njk" %}
-  {% endif %} -->
-
 <footer role="contentinfo" class="[ site-foot ] [ pad-top-700 pad-bottom-900 ]">
   <div class="wrapper">
     <div class="[ site-foot__inner ] [ md:box-flex space-between align-start ]">
@@ -20,10 +15,5 @@
         <theme-toggle></theme-toggle>
       </div>
     </div>
-    {% if site.showThemeCredit %}
-      <p class="[ site-foot__credit ] [ pad-top-900 ]">
-        Powered by the <a href="https://hylia.website" rel="external">Hylia Eleventy Starter Kit v{{ pkg.version }}</a>.
-      </p>
-    {% endif %}
   </div>
 </footer>
