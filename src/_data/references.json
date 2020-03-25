@@ -1,0 +1,10 @@
+{
+  "references": [
+    {
+      "refereeName": "John Smith",
+      "refereeTitle": "Executive of Change",
+      "Reference": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
+      "showButton": false
+    }
+  ]
+}
