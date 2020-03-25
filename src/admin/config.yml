@@ -138,5 +138,5 @@ collections:
               - {label: "referee Name", name: "refereeName", widget: "string", required: false}
               - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
               - {label: "background Image", name: "background", widget: "image", required: false}
-              - {label: "Reference", name: "Reference", widget: "String"}
+              - {label: "Reference", name: "Reference", widget: "string"}
               - {label: "button", name: "showButton", widget: "boolean", required: false}
