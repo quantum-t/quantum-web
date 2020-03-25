@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: quantum-t/quantum-web
   branch: master
 publish_mode: editorial_workflow
-site_url: "https://flexion.tech"
+site_url: "https://github.com/quantum-t/quantum-web"
 media_folder: "src/images"
 public_folder: "images"
 collections:
