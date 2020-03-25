@@ -140,3 +140,19 @@ collections:
               - {label: "background Image", name: "background", widget: "image", required: false}
               - {label: "Reference", name: "Reference", widget: "string"}
               - {label: "button", name: "showButton", widget: "boolean", required: false}
+  - label: "inspiration"
+    name: "inspired"
+    files:
+      - label: "inspired"
+        name: "inspired"
+        delete: false
+        file: "src/_data/inspired.json"
+        fields:
+          - label: "inspired"
+            name: "inspired"
+            widget: "list"
+            fields:
+              - {label: "source", name: "source", widget: "string", required: false}
+              - {label: "background Image", name: "background", widget: "image", required: false}
+              - {label: "quote", name: "Reference", widget: "string"}
+              - {label: "button", name: "showButton", widget: "boolean", required: false}
