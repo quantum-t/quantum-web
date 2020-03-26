@@ -7,12 +7,16 @@
     {% endif %}
 
     {% if showQuote %}
-      <blockquote class="inspired" >
-        <p>{{ inspired.quote }}</p>
-        {% if inspired.source %}
-        <cite> {{ inspired.source }} </cite>
-        {% endif %}
-      </blockquote> 
+      <div class="inspired">
+        <span>
+          <blockquote>
+            <p>{{ inspired.quote }}</p>
+            {% if inspired.source %}
+            <cite> {{ inspired.source }} </cite>
+            {% endif %}
+          </blockquote> 
+        </span>
+      </div>
     {% endif %}  
   {% endfor %}
 {% endif %}
