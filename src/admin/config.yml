@@ -153,8 +153,8 @@ collections:
             name: "inspired"
             widget: "list"
             fields:
+              - {label: "quote", name: "Reference", widget: "string"}
               - {label: "source", name: "source", widget: "string", required: false}
               - {label: "background Image", name: "background", widget: "image", required: false}
-              - {label: "quote", name: "Reference", widget: "string"}
               - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
