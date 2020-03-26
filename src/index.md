@@ -1,9 +1,11 @@
 ---
 layout: home
 title: Quantum Transformation
-titleImage: images/mary-beth.jpg
+titleImage: images/Logo-name-compact.svg
 metaTitle: Quantum Transformation
 metaDesc: 'Mentoring | Coaching | Change Advocacy'
+heroImage: images/mary-beth.jpg
+heroImageAlt: Mary-Beth Hosking
 postsHeading: no posts
 archiveButtonText: no archive
 socialImage: images/mary-beth.jpg

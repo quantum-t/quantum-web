@@ -20,6 +20,8 @@ collections:
           - {label: "Title Image", name: "titleImage", widget: "image", required: false}
           - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
           - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+          - {label: "Hero Image Description", name: "heroImageAlt", widget: "string", required: false}
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
