@@ -11,6 +11,7 @@
 // Local dependencies
 @import 'typography';
 
+
 /**
  * GLOBAL STYLES
  */
@@ -48,6 +49,10 @@ a {
  * PROJECT IMPORTS
  */
 
+ 
+// page layouts
+@import '_page_layouts';
+
 // Utils
 @import 'utilities/inner-wrapper';
 @import 'utilities/visually-hidden';
@@ -69,3 +74,4 @@ a {
 @import 'components/_zoom.scss';
 @import 'components/_signup-form.scss';
 @import 'components/_inspired_card';
+
