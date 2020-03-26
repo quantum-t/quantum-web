@@ -142,18 +142,18 @@ collections:
               - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
   - label: "inspiration"
-    name: "inspired"
+    name: "inspiration"
     files:
-      - label: "inspired"
-        name: "inspired"
+      - label: "inspiration"
+        name: "inspiration"
         delete: false
-        file: "src/_data/inspired.json"
+        file: "src/_data/inspiration.json"
         fields:
-          - label: "inspired"
-            name: "inspired"
+          - label: "inspire"
+            name: "inspire"
             widget: "list"
             fields:
-              - {label: "quote", name: "Reference", widget: "string"}
+              - {label: "quote", name: "quote", widget: "string"}
               - {label: "source", name: "source", widget: "string", required: false}
               - {label: "background Image", name: "background", widget: "image", required: false}
               - {label: "Show Button", name: "showButton", widget: "boolean", required: false}

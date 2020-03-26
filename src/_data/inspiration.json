@@ -1,0 +1,26 @@
+{
+  "inspire": [
+    {
+      "quote": "You must be the change you wish to see in the world.",
+      "source": "Gandhi",
+      "onHomepage": false
+    },
+    {
+      "quote": "Reach for the stars and you will touch the moon",
+      "background": "images/reach-for-star.svg",
+      "source": "",
+      "onHomepage": true
+    },
+    {
+      "source": "",
+      "quote": "Your only limitation is your imagination",
+      "onHomepage": true,
+      "background": "images/dreaming-of-space.svg"
+    },
+    {
+      "quote": "Change will note come if we wait for some other person or some other time. We are the ones we've been waiting for. We are he change tat we seek.",
+      "source": "Barack Obama",
+      "onHomepage": true
+    }
+  ]
+}

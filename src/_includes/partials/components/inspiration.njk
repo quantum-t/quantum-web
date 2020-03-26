@@ -1,0 +1,18 @@
+{% if inspiration.inspire %}
+{% set homePage = (true if pageType == 'Homepage' else false) %}
+  {% for inspired in inspiration.inspire %}
+    {% set showQuote = true %}
+    {% if not (inspired.onHomepage and homePage) %}
+      {% set showQuote = false %}
+    {% endif %}
+
+    {% if showQuote %}
+      <blockquote class="inspired" >
+        <p>{{ inspired.quote }}</p>
+        {% if inspired.source %}
+        <cite> {{ inspired.source }} </cite>
+        {% endif %}
+      </blockquote> 
+    {% endif %}  
+  {% endfor %}
+{% endif %}

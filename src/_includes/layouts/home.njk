@@ -1,11 +1,14 @@
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'Homepage' %}
+{% set Homepage = true %}
 
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
   {{ content | safe }}
 {% endset %}
+
+
 
 <!-- {# Post list content #}
 {% set postListHeading = postsHeading %}
@@ -17,10 +20,11 @@
   {% set paginationNextUrl = '/archive' %}
 {% endif %} -->
 
+
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    <!-- {% include "partials/components/post-list.njk" %} -->
+    {% include "partials/components/inspiration.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}
