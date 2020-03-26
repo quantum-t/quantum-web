@@ -3,7 +3,14 @@
     {
       "Reference": "Reach for the stars and you will touch the moon",
       "background": "images/reach-for-star.svg",
-      "source": ""
+      "source": "",
+      "onHomepage": true
+    },
+    {
+      "source": "",
+      "Reference": "Your only limitation is your imagination",
+      "onHomepage": true,
+      "background": "images/dreaming-of-space.svg"
     }
   ]
 }
