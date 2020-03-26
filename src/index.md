@@ -1,8 +1,9 @@
 ---
 layout: home
 title: Quantum Transformation
+titleImage: images/mary-beth.jpg
 metaTitle: Quantum Transformation
-metaDesc: 'Mentoring, Coaching, Change Advocacy'
+metaDesc: 'Mentoring | Coaching | Change Advocacy'
 postsHeading: no posts
 archiveButtonText: no archive
 socialImage: images/mary-beth.jpg
