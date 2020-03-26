@@ -1,5 +1,5 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
-<header role="banner" class="[ site-head ] [ pad-top-700 pad-bottom-700 ">
+<header role="banner" class="[ site-head ]">
   <div class="wrapper">
     <span class="visually-hidden">{{ site.name }}: {{ pageType }}</span>
     {# <div class="[site-head__inner ] [ md:box-flex space-between align-center ]"> #}
@@ -9,11 +9,11 @@
         <span><img class="[ site-head__logo ]" aria-hidden="true" src="{{ site.logo }}"></span>
       </a>
       
-      {% if site.nameSVG.code %}
+      <!-- {% if site.nameSVG.code %}
          <span class="[ site-head__site-name svgtext ]" aria-hidden="true"> {{site.nameSVG.code | replace("\\","") | safe }}
       {% else %}
         <span class="[ site-head__site-name text ]" aria-hidden="true">{{ site.name }}
-      {% endif %}
+      {% endif %} -->
       </span>
       {% include "partials/components/nav.njk" %}
 

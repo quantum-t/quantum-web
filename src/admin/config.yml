@@ -139,7 +139,8 @@ collections:
               - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
               - {label: "background Image", name: "background", widget: "image", required: false}
               - {label: "Reference", name: "Reference", widget: "string"}
-              - {label: "button", name: "showButton", widget: "boolean", required: false}
+              - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
+              - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
   - label: "inspiration"
     name: "inspired"
     files:
@@ -155,4 +156,5 @@ collections:
               - {label: "source", name: "source", widget: "string", required: false}
               - {label: "background Image", name: "background", widget: "image", required: false}
               - {label: "quote", name: "Reference", widget: "string"}
-              - {label: "button", name: "showButton", widget: "boolean", required: false}
+              - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
+              - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}

@@ -19,6 +19,8 @@
   &__item {
     padding: get-size(300) 0;
     flex-shrink: 0;
+    text-transform: uppercase;
+
 
     a {
       color: currentColor;
