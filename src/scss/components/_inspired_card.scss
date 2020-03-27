@@ -2,15 +2,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin:#{get-size(600)};
   background-color: #DCC4FB;
-  width: 15em;
-  height: 10em;
-  padding: 5% 0;
   border-radius: #{get-size(300)};
   box-shadow: 1px 1px 5px #8F0899;
   
-  blockquote {
-    margin:#{get-size(300)};
+  p, cite {
+    margin: 0 #{get-size(300)};
     text-align: center;
   }
   cite::before {

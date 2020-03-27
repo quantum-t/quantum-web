@@ -1,5 +1,5 @@
 <header class="[ intro ] [ pad-top-900 pad-bottom-max ]">
-  <div class="[ inner-wrapper home-grid ] [ sf-flow ]">
+  <div class="[ inner-wrapper home-grid ]">
       <div class="intro__headings">
         {% if titleImage %}
           <img class= " intro__heading " src={{titleImage}} alt="{{introHeading}}">
@@ -10,7 +10,8 @@
       </div>
       <div class="intro__image"><img src="{{heroImage}}" alt="{{heroImageAlt}}"></div>
     {% if introSummary %}
-      <div class="[ intro__summary ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
+      <div class="[ intro__summary gap-top-800 ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
     {% endif %}
+    {% include "partials/components/inspiration.njk" %}
   </div>
 </header>

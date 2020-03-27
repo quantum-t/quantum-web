@@ -1,10 +1,10 @@
 .intro {
-  background: var(--color-theme-highlight-block);
+  background: linear-gradient(98deg  ,white, var(--color-theme-highlight-block) 230%);
 
   &__summary {
     --flow-space: #{get-size(500)};
     font-size: get-size(500);
-
+  
     a {
       color: currentColor;
 
