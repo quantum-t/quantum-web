@@ -1,5 +1,10 @@
-.intro {
+body {
   background: linear-gradient(98deg  ,white, var(--color-theme-highlight-block) 230%);
+
+}
+
+.intro {
+  // background: linear-gradient(98deg  ,white, var(--color-theme-highlight-block) 230%);
 
   &__summary {
     --flow-space: #{get-size(500)};
