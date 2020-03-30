@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: Subscription Confirmed
 permalink: confirmed.html
-socialImage: images/thank-you-present.svg
+socialImage: /images/thank-you-present.svg
 ---
 
 <p class="ta-center"> Thanks for confirming your subscription.</p>

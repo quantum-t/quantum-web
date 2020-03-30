@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 title: thank you
 permalink: thank-you.html
-socialImage: images/thank-you-present.svg
+socialImage: /images/thank-you-present.svg
 ---
 
 Thanks for subscribing.
