@@ -1,0 +1,16 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Inspiration' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set headerImage = titleImage %}
+{% set introSub = metaDesc %}
+
+{% block content %}
+  <main id="main-content" class="gap-top-800 inner-wrapper inspiration-grid" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/inspiration.njk" %}
+    {% include "partials/components/reference.njk" %}
+    {% include "partials/components/pagination.njk" %}
+  </main>
+{% endblock %}

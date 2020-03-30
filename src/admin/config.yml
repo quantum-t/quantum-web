@@ -132,6 +132,7 @@ collections:
         delete: false
         file: "src/_data/references.json"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/inspiration.njk"}
           - label: "reference"
             name: "reference"
             widget: "list"

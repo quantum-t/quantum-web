@@ -52,6 +52,7 @@ a {
  
 // page layouts
 @import '_page_layouts.scss';
+@import '_inspiration.scss';
 
 // Utils
 @import 'utilities/inner-wrapper';
@@ -74,5 +75,5 @@ a {
 @import 'components/_zoom.scss';
 @import 'components/_signup-form.scss';
 @import 'components/_inspired_card';
-@import 'components/_refQuote'
+@import 'components/_refQuote';
 
