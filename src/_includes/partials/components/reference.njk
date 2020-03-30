@@ -10,12 +10,11 @@
       <blockquote class="reference text-500">
         <p>{% include "icons/quote.svg" %}</p>
         <p>{{ ref.quote }}</p>
-        <cite> {{ ref.refereeName }}: {{ ref.refereeTitle }} </cite>
-        {% endif %}
+        <cite> {{ ref.refereeName }}: {{ ref.refereeTitle }} </cite>    
         {% if ref.showButton %}
           <button class="button">Client Success</button>
         {% endif %}
       </blockquote> 
-      
+    {% endif %}
   {% endfor %}
 {% endif %}

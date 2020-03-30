@@ -1,19 +1,14 @@
-<header class="[ intro ] [ pad-top-900 pad-bottom-max ]">
-  <div class="[ inner-wrapper home-grid ]">
-      <div class="intro__headings">
-        {% if titleImage %}
-          <img class= " intro__heading " src={{titleImage}} alt="{{introHeading}}">
-        {% else %}
-          <h1 class="[ intro__heading {{ ' intro__heading--compact' if page.url === '/' }} ] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
-        {% endif %}
-          <h2 class="intro__subHeading">{{introSub}}</h2>
-      </div>
-      <div class="intro__image"><img src="{{heroImage}}" alt="{{heroImageAlt}}"></div>
-    {% if introSummary %}
-      <div class="[ intro__summary gap-top-800 ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
-    {% endif %}
-    {% include "partials/components/reference.njk" %}
-    {% include "partials/components/inspiration.njk" %}
-    
-  </div>
+<header class="inner-wrapper gap-top-800 intro__headings">
+  {% if headerImage %}
+    <img class= " intro__heading " src={{titleImage}} alt="{{introHeading}}">
+  {% else %}
+    <h1 class="[ intro__heading {{ ' intro__heading--compact' if page.url === '/' }} ] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
+  {% endif %}
+  <h2 class="intro__subHeading">{{introSub}}</h2>
 </header>
+{% if introSummary %}
+<div class="[ intro__summary gap-top-800 ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
+{% endif %}
+<div class="intro__image"><img src="{{heroImage}}" alt="{{heroImageAlt}}"></div>
+
+
