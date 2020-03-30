@@ -1,9 +1,11 @@
-<header class="inner-wrapper gap-top-800 intro__headings">
-  {% if headerImage %}
-    <img class= " intro__heading " src={{titleImage}} alt="{{introHeading}}">
-  {% else %}
+
+{% if headerImage %}
+  <header class="intro__headings">
+    <img class= " intro__heading " src={{headerImage}} alt="{{introHeading}}">
+{% else %}
+  <header class="inner-wrapper gap-top-800 intro__headings">
     <h1 class="[ intro__heading {{ ' intro__heading--compact' if page.url === '/' }} ] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
-  {% endif %}
+{% endif %}
   <h2 class="intro__subHeading">{{introSub}}</h2>
 </header>
 {% if introSummary %}

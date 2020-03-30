@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin:#{get-size(600)};
+  margin: 3rem 3rem 0 -1rem;
   background-color: #DCC4FB;
   border-radius: #{get-size(300)};
   box-shadow: 1px 1px 5px #8F0899;
@@ -13,6 +13,9 @@
   }
   cite::before {
     content:"—"
+  }
+  .button {
+    margin: #{get-size(300)} 20%;
   }
 
 }

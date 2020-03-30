@@ -8,7 +8,8 @@
     {
       "quote": "Change will note come if we wait for some other person or some other time. We are the ones we've been waiting for. We are he change tat we seek.",
       "source": "Barack Obama",
-      "onHomepage": true
+      "onHomepage": true,
+      "showButton": true
     },
     {
       "quote": "Reach for the stars and you will touch the moon",

@@ -12,6 +12,9 @@
         {% if inspired.source %}
         <cite> {{ inspired.source }} </cite>
         {% endif %}
+        {% if inspired.showButton %}
+          <button class="button">Inspiration</button>
+        {% endif %}
       </aside> 
     {% endif %}  
   {% endfor %}
