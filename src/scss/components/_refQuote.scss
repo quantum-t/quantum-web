@@ -1,0 +1,36 @@
+.reference {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:#{get-size(600)};
+  background-color: #845ABB;
+  color:white;
+  border-radius: 50% 50% 50% 0;
+  padding-top: 3.2em;
+  padding-bottom: #{get-size(300)};
+  // box-shadow: 1px 1px 5px #8F0899;
+  
+  svg, p {
+    margin: 0 #{get-size(300)};
+    text-align: center;
+  }
+
+  cite {
+    margin-right: #{get-size(800)};
+    text-align: left;
+  }
+
+
+  svg {
+    transform: scale(3) translate(0%, -30%);
+
+  }
+
+   .button {
+    margin: 3em 40% 0 10%;
+  }
+  cite::before {
+    content:"※ "
+  }
+
+}

@@ -128,18 +128,18 @@ collections:
     name: "references"
     files:
       - label: "References"
-        name: "refs"
+        name: "references"
         delete: false
         file: "src/_data/references.json"
         fields:
-          - label: "References"
-            name: "references"
+          - label: "reference"
+            name: "reference"
             widget: "list"
             fields:
               - {label: "referee Name", name: "refereeName", widget: "string", required: false}
               - {label: "referee Title", name: "refereeTitle", widget: "string", required: false}
               - {label: "background Image", name: "background", widget: "image", required: false}
-              - {label: "Reference", name: "Reference", widget: "string"}
+              - {label: "quote", name: "quote", widget: "string"}
               - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
   - label: "inspiration"

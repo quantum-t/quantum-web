@@ -1,8 +1,9 @@
 .button {
   display: inline-block;
   border: none;
-  background-color: var(--color-action-bg);
-  color: var(--color-action-text);
+  font-size: get-size(500);
+  background-color: var(--color-highlight);
+  color: var(--color-light);
   padding: get-size(300) get-size('base');
   line-height: 1;
   margin: 0;
@@ -10,11 +11,15 @@
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
+  border-radius: get-size(300);
+  box-shadow:  2px 2px 4px #0005, 
+             -2px -2px 4px #fff5;
+
 }
 
 .button:hover,
 .button:focus {
-  filter: brightness(1.2);
+  background: linear-gradient(145deg, #a49909, #8a8107);
 }
 
 .button:focus:hover {
@@ -22,10 +27,12 @@
 }
 
 .button:focus:not(:hover) {
-  outline: 1px solid var(--color-action-text);
+  outline: 1px solid var(--color-light);
   outline-offset: -4px;
 }
 
 .button:active {
   transform: scale(0.99);
+  box-shadow: inset 6px 6px 12px #7f7707, 
+            inset -6px -6px 12px #b3a709;
 }

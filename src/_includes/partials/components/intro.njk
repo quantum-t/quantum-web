@@ -12,6 +12,8 @@
     {% if introSummary %}
       <div class="[ intro__summary gap-top-800 ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
     {% endif %}
+    {% include "partials/components/reference.njk" %}
     {% include "partials/components/inspiration.njk" %}
+    
   </div>
 </header>

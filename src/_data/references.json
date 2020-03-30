@@ -1,17 +1,19 @@
 {
-  "references": [
+  "reference": [
     {
       "refereeName": "John Smith",
       "refereeTitle": "Executive of Change",
-      "Reference": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
-      "showButton": false
+      "quote": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
+      "showButton": true,
+      "onHomepage": true
     },
     {
       "refereeName": "Jeremy Jones",
       "refereeTitle": "Change Manager",
       "background": "images/logo.svg",
-      "Reference": "Just an amazing experience to come out the other side of a major project in one piece!",
-      "showButton": true
+      "quote": "Just an amazing experience to come out the other side of a major project in one piece!",
+      "showButton": true,
+      "onHomepage": true
     }
   ]
 }

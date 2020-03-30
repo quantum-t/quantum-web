@@ -64,6 +64,18 @@
     opacity: 0;
   }
 
+  .reference {
+    grid-column: 1 / 4;
+  }
+
+  .reference:nth-of-type(1) {
+    grid-row: 2 / 4;
+    margin: 1em 3em;
+  }
+  .reference:nth-of-type(n+2) {
+    opacity: 0;
+  }
+
   
 }
   // Large devices (desktops, 992px and up)
