@@ -11,6 +11,6 @@
 {% if introSummary %}
 <div class="[ intro__summary gap-top-800 ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
 {% endif %}
-<div class="intro__image"><img src="{{heroImage}}" alt="{{heroImageAlt}}"></div>
-
-
+{% if heroImage %}
+  <div class="intro__image"><img src="{{heroImage}}" alt="{{heroImageAlt}}"></div>
+{% endif %}

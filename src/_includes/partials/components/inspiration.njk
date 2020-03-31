@@ -2,18 +2,21 @@
 {% set homePage = (true if pageType == 'Homepage' else false) %}
   {% for inspired in inspiration.inspire %}
     {% set showQuote = true %}
-    {% if not (inspired.onHomepage and homePage) %}
-      {% set showQuote = false %}
+    {% if homePage %}
+      {% if not (inspired.onHomepage) %}
+        {% set showQuote = false %}
+      {% endif %}
     {% endif %}
-
     {% if showQuote %}
       <aside class="inspired text-500">
         <p>{{ inspired.quote }}</p>
         {% if inspired.source %}
         <cite> {{ inspired.source }} </cite>
         {% endif %}
-        {% if inspired.showButton and homePage %}
-          <a class="button" href="/inspiration/" >Inspiration</a>
+        {% if inspired.showButton %}
+          {% if not (pageType == 'Inspiration') %}
+            <a class="button" href="/inspiration/" >Inspiration</a>
+          {% endif %}
         {% endif %}
       </aside> 
     {% endif %}  
