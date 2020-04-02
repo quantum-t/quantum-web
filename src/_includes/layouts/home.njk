@@ -12,10 +12,13 @@
 {% endset %}
 
 {% block content %}
-  <main id="main-content" class="gap-top-800 inner-wrapper home-grid" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/reference.njk" %}
-    {% include "partials/components/inspiration.njk" %}
-    {% include "partials/components/pagination.njk" %}
+  <main id="main-content" class="gap-top-800 wrapper " tabindex="-1">
+    <div class="inner-wrapper home-grid">
+      
+      {% include "partials/components/intro.njk" %}
+      {% include "partials/components/reference.njk" %}
+      {% include "partials/components/inspiration.njk" %}
+      {% include "partials/components/pagination.njk" %}
+    </div>
   </main>
 {% endblock %}

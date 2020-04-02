@@ -1,10 +1,10 @@
 .reference {
   display: flex;
-  width: 400px;
-  height: 400px;
+  // width: 400px;
+  // height: 400px;
   justify-content: center;
   flex-direction: column;
-  margin:#{get-size(600)};
+  margin:0;
   background-color: #845ABB;
   color:white;
   border-radius: 50% 50% 50% 0;
@@ -25,15 +25,28 @@
 
 
   svg {
-    transform: scale(3) translate(0%, -30%);
+    transform: scale(2) translate(0%, -30%);
 
   }
 
-   .button {
-    margin: 3em 40% 0 10%;
+  .button {
+    margin: 2em 32% 0 5%;
   }
   cite::before {
     content:"※ "
   }
 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .reference {
+    margin:#{get-size(600)};
+    svg {
+      transform: scale(3) translate(0%, -30%);
+    }
+    .button {
+      margin: 3em 40% 0 10%;
+    }
+  }
 }

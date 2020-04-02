@@ -1,9 +1,16 @@
 .inspiration-grid {
   display:grid;
   grid-template-columns: 1fr;  
-  grid-template-rows: repeat(25, 1fr);
+  grid-template-rows: .5fr repeat(6, 2.5fr);
   column-gap: 1em;
+  justify-items: center;
+  align-items: center;
 
+  .inspired {
+    width:90%;
+    height:90%;
+    margin: 1rem 0;
+  }
 }
 
 .intro {
@@ -36,6 +43,9 @@
 
     .inspired {
       margin: #{get-size(800)};
+      width:80%;
+      height:80%;
+      
     }
     .inspired:nth-of-type(1){
       grid-row: 2 / 3;
