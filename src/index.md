@@ -8,17 +8,23 @@ heroImage: /images/mary-beth.jpg
 heroImageAlt: Mary-Beth Hosking
 socialImage: /images/mary-beth.jpg
 ---
-## About Mary-Beth Hosking
+## About Mary-Beth
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+<!--StartFragment-->
+
+Mary-Beth Hosking is a pragmatic and seasoned technology leader with extensive experience in organisational transformations. Mary-Beth is currently authoring “In One Step - a step by step guide to surviving change”. When published, her book will provide valuable advice on how leaders can continue to deliver business imperatives, support their teams, ensure their own well-being and grow their careers during change.​
+
+​Mary-Beth holds a Masters Degree in Business and Technology with majors in Strategic and Change Management. She has had over 17 years experience leading restructures in multinational organisations including BP, Toll Holdings and Specsavers.​
+
+​Mary-Beth acts as mentor, coach and trainer to leaders grappling with organisational uncertainty and change.
+
+<!--EndFragment-->
 
 ### Achievements
- - sed diam nonumy eirmod 
- - accusam et justo du
- - Stet clita kasd gubergren,
- - mentored James Foran
+
+* Masters in Business and Technology
+* Author of "In One Step - a step by step guide to surviving change"
 
 ### Awards
- no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-
+* Winner of Capstone Award for Innovation and Change Management - UNSW
