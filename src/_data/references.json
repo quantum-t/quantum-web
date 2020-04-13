@@ -1,19 +1,34 @@
 {
   "reference": [
     {
-      "refereeName": "John Smith",
-      "refereeTitle": "Executive of Change",
-      "quote": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.",
-      "showButton": true,
-      "onHomepage": false
-    },
-    {
-      "refereeName": "Jeremy Jones",
-      "refereeTitle": "Change Manager",
-      "background": "images/logo.svg",
-      "quote": "Just an amazing experience to come out the other side of a major project in one piece!",
+      "refereeName": "Jodie Coomer",
+      "refereeTitle": "Analyst Practice Lead - ANZ",
+      "quote": "Mary-Beth ran coaching sessions with me to help me uncover what career direction I wanted to go in, and helped me unearth things I knew but had forgotten/ hadn't realised about myself. She gave advice on dealing with colleagues and difficult situations. Two years on and life for me is very different; I have a new job and I know for certain that I wouldn't have had the confidence to go for that job interview if it hadn't been for Mary-Beth.",
       "showButton": true,
       "onHomepage": true
+    },
+    {
+      "refereeName": "Mohammad Alam",
+      "refereeTitle": "Solution Designer Infrastructure - Specsavers",
+      "background": "images/logo.svg",
+      "quote": "I never realized how much I had to offer until Mary-Beth started mentoring me. In just 18 months, I can sense a change within me to see things differently, shift my mindset to accept change, calm myself down in complex situations and most importantly stepping up to take more challenge and helping others in every possible way.  I cannot thank Mary-Beth enough for her time mentoring me, guiding me to the path I am walking. I must agree as she says “the greatest feeling is when you help others to become the best leaders they can be and that’s how you leave a legacy”",
+      "showButton": true,
+      "onHomepage": true
+    },
+    {
+      "refereeName": "Keng Ng",
+      "refereeTitle": "CIO Munro Group",
+      "quote": "Great results are not the only outcomes Mary-Beth brings to the team. Mary-Beth makes sure focus is given to the personal development of Mary-Beth's team by spending time mentoring and coaching individuals. This is the key to sustainable high-performance of the delivery team. As a leader, Mary-Beth is passionate, empathetic and resilient. Always prepared to lead from the front."
+    },
+    {
+      "refereeName": "Julian McAll",
+      "refereeTitle": "Head of Technical Services - Specsavers",
+      "quote": "Mary-Beth’s skills as a mentor and coach have provided her direct reports and wider IT team members with the support they need to become a resilient team able to work under stressful conditions but to still find joy in what they do. Mary-Beth earns my highest recommendation."
+    },
+    {
+      "refereeName": "Gary Marrison",
+      "refereeTitle": "National IT Manager - Toll Intermodal",
+      "quote": "Mary-Beth became my mentor. I learned so much from her. She was the yin to my yang! I have never worked with somebody so thorough. MBH brings out the best in those that work for her; no matter the level. Very few people create a presence in the way that she does, where people just \"listen\"."
     }
   ]
 }

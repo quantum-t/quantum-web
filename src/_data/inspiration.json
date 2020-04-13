@@ -1,26 +1,26 @@
 {
   "inspire": [
     {
-      "quote": "Change will note come if we wait for some other person or some other time. We are the ones we've been waiting for. We are he change tat we seek.",
+      "quote": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
       "source": "Barack Obama",
-      "onHomepage": true,
+      "onHomepage": false,
       "showButton": false
     },
     {
-      "quote": "You must be the change you wish to see in the world.",
-      "source": "Gandhi",
+      "quote": "Achieving change in organisations is not so much about managing but may be more about guiding and steering the process of change.",
+      "source": "Charles Handy",
       "onHomepage": true
     },
     {
-      "quote": "Reach for the stars and you will touch the moon",
+      "quote": "Change is the law of life, and those who look only to the past and present are certain to miss the future",
       "background": "images/reach-for-star.svg",
-      "source": "",
+      "source": "John F. Kennedy",
       "onHomepage": true,
       "showButton": true
     },
     {
-      "source": "",
-      "quote": "Your only limitation is your imagination",
+      "source": "Mark Williams",
+      "quote": "Being mindful means that we suspend judgement for a time, set aside our immediate goals for the future, and take in the present moment as it is rather than as we would like it to be.",
       "onHomepage": true,
       "background": "images/dreaming-of-space.svg"
     }
