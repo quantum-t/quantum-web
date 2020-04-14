@@ -123,27 +123,19 @@ collections:
               - {label: "quote", name: "quote", widget: "string"}
               - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}  
-  - label: "programs"
-    name: "programs"
-    files:
-      - label: "programs"
-        name: "programs"
-        delete: false
-        file: "src/_data/programs.md"
-        fields:
-          - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
-          - {label: "Hero Image Description", name: "heroImageAlt", widget: "string", required: false}
-          - {label: "Button Text", name: "btnText", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/programs.njk"}
-          - label: "program"
-            name: "program"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "programName", widget: "string"}
-              - {label: "price", name: "programPrice", widget: "string"}
-              - {label: "showPrice", name: "showPrice", widget: "boolean", required: false}
-              
-              - {label: "Body", name: "body", widget: "markdown"}
+ - name: "programs"
+    label: "programs"
+    folder: "src/programs"
+    slug: "{{slug}}"
+    preview_path: "programs/{{slug}}"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/programs.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "price", name: "programPrice", widget: "string"}
+      - {label: "showPrice", name: "showPrice", widget: "boolean", required: false}
+      - {label: "Button Text", name: "btnText", widget: "string", default: "Enquire Now"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - label: "inspiration"
     name: "inspiration"
     files:
