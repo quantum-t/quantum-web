@@ -1,4 +1,5 @@
 ---
+layout: layouts/programs.njk
 heroImage: /images/Logo-name-compact.svg
 heroImageAlt: ""
 btnText: Enquire Now
