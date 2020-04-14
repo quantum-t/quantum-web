@@ -1,8 +1,8 @@
 ---
-layout: layouts/programs.njk
 title: Review and Reset
 programPrice: "99999"
 btnText: Enquire Now
+tags: program
 ---
 This package aims to review your personal goals looking to enhance your
 leadership style and reset your leadership brand.  The package typically

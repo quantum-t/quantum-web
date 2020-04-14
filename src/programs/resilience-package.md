@@ -1,8 +1,8 @@
 ---
-layout: layouts/programs.njk
 title: Resilience Package
 programPrice: "999999"
 btnText: Enquire Now
+tags: program
 ---
 This package aims to build your resilience and enhance your leadership
 brand.  Including practical guidance to managing change and building a

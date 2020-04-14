@@ -2,23 +2,24 @@
 {% set pageType = 'Programs' %}
 
 {# Intro content #}
-{% set headerImage = heroImage %}
-
+{% set headerImage = titleImage %}
+{% set introSub = metaDesc %}
 
 {% block content %}
-  <main id="main-content" class="gap-top-800 inner-wrapper inspiration-grid" tabindex="-1">
+  <main id="main-content" class="gap-top-800 wrapper programs-grid" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% for program in programs %}
+
+    {% for program in collections.program | reverse %}
       <div class="program">
-        <h1>
-          {{programName}}
+        <h1 class="program__heading">
+          {{program.data.title}}
         </h1>
-        <div class="program__details">
-          {{programDesc | safe}}
+        <div class="program__details"></div>
+          {{program.data.content | safe}}
+          <button  class="ta-center button">
+            <span contenteditable="" >{{program.data.btnText}}</span>
+          </button>
         </div>
-        <button class="button program__action">
-          {{btnText}}
-        </button>
       </div>
     {% endfor %}
   </main>

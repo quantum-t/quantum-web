@@ -130,7 +130,6 @@ collections:
     preview_path: "programs/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/programs.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "price", name: "programPrice", widget: "string"}
       - {label: "showPrice", name: "showPrice", widget: "boolean", required: false}
