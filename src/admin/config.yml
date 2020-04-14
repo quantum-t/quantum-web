@@ -129,7 +129,7 @@ collections:
       - label: "programs"
         name: "programs"
         delete: false
-        file: "src/_data/programs.json"
+        file: "src/_data/programs.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/programs.njk"}
           - label: "program"
