@@ -9,7 +9,7 @@ const EXCLUDED_URLS = [
   '.netlify',
   'https://identity.netlify.com/v1/netlify-identity-widget.js',
   'https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js',
-  'flexion.tech',
+  'quantumtransformation.com.au',
   'commento.io',
 ];
 

@@ -1,0 +1,24 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Programs' %}
+
+{# Intro content #}
+{% set headerImage = titleImage %}
+
+{% block content %}
+  <main id="main-content" class="gap-top-800 inner-wrapper inspiration-grid" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% for program in programs %}
+      <div class="program">
+        <h1>
+          {{programName}}
+        </h1>
+        <div class="program__details">
+          {{programDesc | safe}}
+        </div>
+        <button class="button program__action">
+          {{btnText}}
+        </button>
+      </div>
+    {% endfor %}
+  </main>
+{% endblock %}

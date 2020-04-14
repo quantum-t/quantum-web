@@ -137,8 +137,10 @@ collections:
             widget: "list"
             fields:
               - {label: "Title", name: "programName", widget: "string"}
+              - {label: "price", name: "programPrice", widget: "string"}
+              - {label: "showPrice", name: "showPrice", widget: "boolean"}
               - {label: "Button Text", name: "btnText", widget: "string"}
-              - {label: "Description", name: "programDesc", widget: "markdown"}
+              - {label: "Body", name: "body", widget: "markdown"}
   - label: "inspiration"
     name: "inspiration"
     files:
