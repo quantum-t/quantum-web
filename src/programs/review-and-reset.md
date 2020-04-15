@@ -17,7 +17,7 @@ The package typically includes:
 * High level introduction to “In One Piece - a step by step guide to surviving change"
 * 2 x 15 minute coach calls – When you need to bounce ideas around or need some guidance
 
-## Networking:
+## Networking
 
 Advice on networking events pertinent to your role
 

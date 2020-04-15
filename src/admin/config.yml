@@ -133,6 +133,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "price", name: "programPrice", widget: "string"}
       - {label: "showPrice", name: "showPrice", widget: "boolean", required: false}
+      - {label: "tags", name: "tags", widget: "hidden", default: "program"}
       - {label: "Button Text", name: "btnText", widget: "string", default: "Enquire Now"}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "inspiration"

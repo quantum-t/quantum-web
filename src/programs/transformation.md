@@ -2,6 +2,7 @@
 title: Transformation
 programPrice: $7,500
 btnText: Enquire Now
+tags: program
 ---
 <!--StartFragment-->
 
@@ -26,7 +27,7 @@ This package typically includes:
 
 4x 15 minute coach calls – When you need to bounce ideas around or need some guidance
 
-Networking:
+## Networking
 
 Advice on networking events pertinent to your role
 
