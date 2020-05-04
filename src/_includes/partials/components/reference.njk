@@ -7,13 +7,13 @@
     {% endif %}
 
     {% if showQuote %}
-      <blockquote class="reference text-500">
-        <p>{% include "icons/quote.svg" %}</p>
-        <p>{{ ref.quote }}</p>
-        <cite> {{ ref.refereeName }}: {{ ref.refereeTitle }} </cite>    
-        {% if ref.showButton %}
-          <button class="button">Client Success</button>
-        {% endif %}
+      <blockquote class="reference circle_text text-500">
+          <span>
+            <p>{% include "icons/quote.svg" %}</p>
+            {{ ref.quote }}</span>
+        <p>
+          <cite> {{ ref.refereeName }}: {{ ref.refereeTitle }} </cite>
+        </p>    
       </blockquote> 
     {% endif %}
   {% endfor %}
