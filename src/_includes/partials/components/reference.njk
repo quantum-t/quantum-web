@@ -1,11 +1,19 @@
 {% if references.reference %}
-{% set homePage = (true if pageType == 'Homepage' else false) %}
+  {% set homePage = (true if pageType == 'Homepage' else false) %}
+  {% set quoteSearch = true %}
   {% for ref in references.reference %}
-    {% set showQuote = true %}
-    {% if not (ref.onHomepage and homePage) %}
-      {% set showQuote = false %}
+    {% set showQuote = false %}
+    {% if homePage %}
+      {% if quoteSearch %}
+        {% if ref.onHomepage %}
+          {% set showQuote = true %}
+          {% set quoteSearch = false %}
+        {% endif %}
+      {% endif %}
+    {% else %}
+      {% set showQuote = true %}
     {% endif %}
-
+    
     {% if showQuote %}
       <blockquote class="reference circle_text text-500">
           <span>
@@ -13,7 +21,11 @@
             {{ ref.quote }}</span>
         <p>
           <cite> {{ ref.refereeName }}: {{ ref.refereeTitle }} </cite>
+          {% if homePage %}
+          
+        {% endif %}
         </p>    
+        <button class="button">Client Success</button>
       </blockquote> 
     {% endif %}
   {% endfor %}

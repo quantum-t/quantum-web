@@ -56,7 +56,6 @@
 }
 
 .reference {
-  margin:0;
   background-color: #845ABB;
   color:white;
   border-radius: 50% 50% 50% 0;
@@ -74,17 +73,13 @@
   }
   svg {
     transform: scale(2) translate(0%, -30%);
-
   }
-  
-
   .button {
-    margin: 2em 32% 0 5%;
+    margin: 2em 0 0 -18em;
   }
   cite::before {
     content:"※ "
   }
-
 }
 
 // Medium devices (tablets, 768px and up)
@@ -95,7 +90,7 @@
       transform: scale(2) translate(0%, -30%);
     }
     .button {
-      margin: 3em 40% 0 10%;
+      margin: -2em 0 0 -18em;
     }
   }
 }
