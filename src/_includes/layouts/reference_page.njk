@@ -1,0 +1,14 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'References' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set headerImage = titleImage %}
+{% set introSub = metaDesc %}
+
+{% block content %}
+  <main id="main-content" class="gap-top-800 wrapper reference-grid" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/reference.njk" %}
+  </main>
+{% endblock %}

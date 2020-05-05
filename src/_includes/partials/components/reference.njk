@@ -21,11 +21,10 @@
             {{ ref.quote }}</span>
         <p>
           <cite> {{ ref.refereeName }}: {{ ref.refereeTitle }} </cite>
-          {% if homePage %}
-          
-        {% endif %}
         </p>    
-        <button class="button">Client Success</button>
+        {% if homePage %}
+          <button class="button">Client Success</button>
+        {% endif %}
       </blockquote> 
     {% endif %}
   {% endfor %}
