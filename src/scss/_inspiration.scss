@@ -5,6 +5,8 @@
   column-gap: 1em;
   justify-items: center;
   align-items: center;
+  padding-bottom: 4em;
+  row-gap: 2em;
 
   .inspired {
     width:90%;
@@ -33,7 +35,7 @@
       &__headings {
         grid-column: 1 / 4;
         grid-row: 1/2;
-        padding: 0 20%;
+        padding-bottom: 3em;
       }
     }
 
