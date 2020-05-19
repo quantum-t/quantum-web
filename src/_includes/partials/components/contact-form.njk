@@ -1,22 +1,61 @@
-{% from "macros/form.njk" import label, field, textarea, button %}
+{% from "macros/form.njk" import label, field, textarea,select, button %}
 
-<form name="contact" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="bot-field">
-  <ol class="[ field-list ]">
+<!-- <form name="enquiry" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname"> -->
+  <ol class="[ contact field-list visually-hidden ]">
     <li class="[ field-list__field-group ]">
       {{ label("What’s your name?", "name") }}
-      {{ field( "text", "name", { required: true, placeholder: "Katherine Johnson", autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+      {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+    </li>
+    <li hidden>
+      <label>Don’t fill this out if you're human: <input name="sirname" /></label>
+    </li>
+    <li hidden>
+      <label>program selected<input id="selected-program" name="program" /></label>
     </li>
     <li class="[ field-list__field-group ]">
       {{ label("What’s your email address?", "email") }}
-      {{ field( "email", "email", { required: true, placeholder: "katherine@johnson.tld", autocomplete: "email" } ) }}
+      {{ field( "email", "email", { required: true, placeholder: "example@email.com", autocomplete: "email" } ) }}
     </li>
     <li class="[ field-list__field-group ]">
-      {{ label("What’s on your mind?", "message") }}
-      {{ textarea( "message", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
+      {{ label("What’s the best number to contact you on?", "phone") }}
+      {{ field( "phone", "phone", { required: true, autocomplete: "phone" } ) }}
     </li>
-    <li hidden>
-      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    <li class="field-list__field-group">
+      {{label("When is the best time to contact you?(Melbourne Time)","time")}}
+
+      {{ select("time", ["7am-9am","9am-12pm","12pm-3pm","3pm-6pm","7pm-10pm"])}}
+    </li>
+    <li class="[ field-list__field-group ]">
+      {{ label("What are some career goals you want to achieve?", "goals") }}
+      {{ textarea( "goals", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
     </li>
   </ol>
-  {{ button("Send message") }}
-</form>
+  <ol class="[ contact field-list visually-hidden ]">
+    
+    <li class="[ field-list__field-group ]">
+      {{ label("What are your biggest concerns regarding your career?", "concerns") }}
+      {{ textarea( "concerns", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
+    </li>
+    <li class="[ field-list__field-group ]">
+      {{ label("How are you perceived in your current organisation (do you have a strong brand)?", "brand") }}
+      {{ textarea( "brand", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
+    </li>
+    <li class="[ field-list__field-group ]">
+      {{ label("Are you happy with your current level of success or are you reaching for more?", "happiness") }}
+      {{ textarea( "happiness", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
+    </li>
+    {{ button("Send Enquiry") }}
+  </ol>
+  
+<!-- </form> -->
+
+<!-- Contact Name
+Contact Email
+Contact Mobile
+Best time to call
+Couple of questions that need to be answered:
+1. What are some career goals you want to achieve?
+2. Where your career is considered what worries you the most?
+3. How are you perceived in your current organisation (do you have a strong brand)?
+4. Are you happy with your current level of success or are you reaching for more?
+ -->

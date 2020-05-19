@@ -6,9 +6,9 @@
 {% set introSub = metaDesc %}
 
 {% block content %}
-  <main id="main-content" class="gap-top-800 wrapper programs-grid" tabindex="-1">
+  <form class="gap-bottom-max gap-top-800 wrapper"name="enquiry" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname">
+  <main id="main-content" class="programs-grid" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-
     {% for program in collections.program %}
       <div class="program">
         <h1 class="program__heading">
@@ -17,11 +17,23 @@
         <div class="program__details"></div>
           {{program.data.content | safe}}
           <button  class="ta-center button">
-            <span>{{program.data.btnText}}</span>
+            {{program.data.btnText}}
           </button>
         </div>
       </div>
     {% endfor %}
-    {% include "partials/components/enquiry-form.njk" %}
+    {% include "partials/components/contact-form.njk" %}
   </main>
+</form>
+  <script>
+    document.querySelectorAll('.program .button').forEach((e) => e.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      let program = ev.target.parentElement.childNodes[0].textContent
+      document.querySelectorAll('.program').forEach((e) => e.classList.add('visually-hidden'))
+      document.querySelectorAll('.contact').forEach((e) => e.classList.remove('visually-hidden'))
+      document.getElementById('selected-program').value = program
+    
+    }))  
+                                                      
+  </script>
 {% endblock %}
