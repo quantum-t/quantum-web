@@ -11,6 +11,8 @@ const EXCLUDED_URLS = [
   'https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js',
   'quantumtransformation.com.au',
   'commento.io',
+  '/contact',
+  '/thank-you'
 ];
 
 // URLS that we want to be cached when the worker is installed
