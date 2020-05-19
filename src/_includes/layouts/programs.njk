@@ -9,7 +9,7 @@
   <main id="main-content" class="gap-top-800 wrapper programs-grid" tabindex="-1">
     {% include "partials/components/intro.njk" %}
 
-    {% for program in collections.program | reverse %}
+    {% for program in collections.program %}
       <div class="program">
         <h1 class="program__heading">
           {{program.data.title}}
@@ -22,5 +22,6 @@
         </div>
       </div>
     {% endfor %}
+    {% include "partials/components/enquiry-form.njk" %}
   </main>
 {% endblock %}
