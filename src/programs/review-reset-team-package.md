@@ -18,24 +18,17 @@ Recommendations from the Ways of Working group session delivered to leadership.
 
 1 hour Leadership Vision workshop including development of:
 
-\    •Team Vision statement
-
-\    •Team RACI matrix developed based on business objectives
-
-\    •Team structure
-
-\    •Team key performance indicators
+* Team Vision statement
+* Team RACI matrix developed based on business objectives
+* Team structure
+* Team key performance indicators
 
 2 hour Team presentation delivered to entire team includes:
 
-\    •Team observations
-
-\    •Ways of Working observations and recommendations
-
-\    •Team vision
-
-\    •Team structure
-
-\    •Key performance indicators of how the team will be measured ongoing
+* Team observations
+* Ways of Working observations and recommendations
+* Team vision
+* Team structure
+* Key performance indicators of how the team will be measured ongoing
 
 <!--EndFragment-->
