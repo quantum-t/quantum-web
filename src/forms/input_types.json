@@ -1,0 +1,13 @@
+{
+  "formInputsTypes": [
+    {
+      "FieldType": "text"
+    },
+    {
+      "FieldType": "select"
+    },
+    {
+      "FieldType": "radio"
+    }
+  ]
+}
