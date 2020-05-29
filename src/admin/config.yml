@@ -174,12 +174,12 @@ collections:
         widget: "list"
         fields:
           - label: "inputType"
-             name: "type"
-             widget: "relation"
-             collection: "inputs"
-             default: "text"
-             searchFields: "type"
-             valueFields: "type"
-             displayFields: "type"
+            name: "type"
+            widget: "relation"
+            collection: "inputs"
+            default: "text"
+            searchFields: "type"
+            valueFields: "type"
+            displayFields: "type"
       
       
