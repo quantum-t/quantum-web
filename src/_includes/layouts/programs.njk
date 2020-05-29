@@ -6,8 +6,8 @@
 {% set introSub = metaDesc %}
 
 {% block content %}
-  <form class="gap-bottom-max gap-top-800 wrapper"name="enquiry" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname">
-  <main id="main-content" class="programs-grid" tabindex="-1">
+  <!-- <form class="gap-bottom-max gap-top-800 wrapper"name="enquiry" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname"> -->
+  <main id="main-content" class="gap-bottom-max gap-top-800 wrapper programs-grid" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% for program in collections.program %}
       <div class="program">
@@ -24,7 +24,7 @@
     {% endfor %}
     {% include "partials/components/contact-form.njk" %}
   </main>
-</form>
+<!-- </form> -->
   <script>
     document.querySelectorAll('.program .button').forEach((e) => e.addEventListener('click', (ev) => {
       ev.preventDefault();

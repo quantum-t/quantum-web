@@ -1,6 +1,6 @@
 {% from "macros/form.njk" import label, field, textarea,select, button %}
 
-<!-- <form name="enquiry" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname"> -->
+<form name="enquiry" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname">
   <ol class="[ contact field-list visually-hidden ]">
     <li class="[ field-list__field-group ]">
       {{ label("What’s your name?", "name") }}
@@ -29,9 +29,6 @@
       {{ label("What are some career goals you want to achieve?", "goals") }}
       {{ textarea( "goals", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
     </li>
-  </ol>
-  <ol class="[ contact field-list visually-hidden ]">
-    
     <li class="[ field-list__field-group ]">
       {{ label("What are your biggest concerns regarding your career?", "concerns") }}
       {{ textarea( "concerns", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
@@ -47,7 +44,7 @@
     {{ button("Send Enquiry") }}
   </ol>
   
-<!-- </form> -->
+</form>
 
 <!-- Contact Name
 Contact Email

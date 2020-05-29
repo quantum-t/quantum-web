@@ -153,3 +153,34 @@ collections:
               - {label: "background Image", name: "background", widget: "image", required: false}
               - {label: "Show Button", name: "showButton", widget: "boolean", required: false}
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
+  - label: "inputs"
+    name: "inputs"
+    file: "src/forms/input_types.json"
+    fields: 
+      - label: "field Type"
+      - name: "type"
+      - widget: "string"
+  - label: "forms"
+    name: "forms"
+    folder: "src/forms"
+    create: true
+    identifier_field: formName
+    fields:
+      - {label: "formName", name: "formName", widget: "string"}
+      - {label: "honeyPot", name: "honeyPot", widget: "string"}
+      - {label: "submitButton", name: "submitButton", widget: "string", required: false}
+       - label: "input"
+            name: "input"
+            widget: "list"
+            fields:
+              - {
+                  label: "inputType",
+                  name: "type",
+                  widget: "relation",
+                  collection: "inputs",
+                  default: "text",
+                  searchFields: "type",
+                  valueFields: "type",
+                  displayFields: "type"
+                }
+      
