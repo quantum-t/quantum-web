@@ -155,11 +155,12 @@ collections:
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
   - label: "inputs"
     name: "inputs"
+    delete: false
     file: "src/forms/input_types.json"
     fields: 
       - label: "field Type"
-      - name: "type"
-      - widget: "string"
+        name: "FieldType"
+        widget: "string"
   - label: "forms"
     name: "forms"
     folder: "src/forms"
@@ -178,8 +179,8 @@ collections:
             widget: "relation"
             collection: "inputs"
             default: "text"
-            searchFields: "type"
-            valueFields: "type"
-            displayFields: "type"
+            searchFields: "FieldType"
+            valueFields: "FieldType"
+            displayFields: "FieldType"
       
       
