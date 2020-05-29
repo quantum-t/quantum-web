@@ -171,15 +171,15 @@ collections:
       - {label: "submitButton", name: "submitButton", widget: "string", required: false}
       - label: "input"
         name: "input"
-         widget: "list"
-         fields:
-           - label: "inputType"
-              name: "type"
-              widget: "relation"
-              collection: "inputs"
-              default: "text"
-              searchFields: "type"
-              valueFields: "type"
-              displayFields: "type"
+        widget: "list"
+        fields:
+          - label: "inputType"
+             name: "type"
+             widget: "relation"
+             collection: "inputs"
+             default: "text"
+             searchFields: "type"
+             valueFields: "type"
+             displayFields: "type"
       
       
