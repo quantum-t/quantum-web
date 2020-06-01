@@ -1,0 +1,88 @@
+{
+  "formName": "Enquiry",
+  "action": "/thank-you",
+  "honeyPot": "sirname",
+  "submitButton": "Submit Entry",
+  "input": [
+    {
+      "inputName": "name",
+      "type": "field",
+      "inputLabel": "What is your name?",
+      "inputRequired": true
+    },
+    {
+      "inputName": "sirname",
+      "type": "hidden_field",
+      "inputLabel": "sirname",
+      "inputRequired": true
+    },
+    {
+      "inputName": "program",
+      "type": "hidden_field",
+      "inputLabel": "program",
+      "inputRequired": true
+    },
+    {
+      "inputName": "email",
+      "type": "field",
+      "inputLabel": "What is your email address?",
+      "inputRequired": true,
+      "input Pattern": "[^@]+@[^\\\\.]+\\\\..+"
+    },
+    {
+      "inputName": "phone",
+      "type": "field",
+      "inputLabel": "What is the best number to contact you on?",
+      "inputData": "+61",
+      "inputRequired": true
+    },
+    {
+      "inputName": "time",
+      "type": "select",
+      "inputLabel": "When is the best time to contact you(Melbourne time)?",
+      "options": [
+        {
+          "value": "7am-9am"
+        },
+        {
+          "value": "9am-12pm"
+        },
+        {
+          "value": "12pm-3pm"
+        },
+        {
+          "value": "3pm-6pm"
+        },
+        {
+          "value": "7pm-10pm"
+        }
+      ]
+    },
+    {
+      "inputName": "goals",
+      "type": "textArea",
+      "inputLabel": "What are some career goals you want to achieve?",
+      "spellcheck": true
+    },
+    {
+      "inputName": "concerns",
+      "type": "textArea",
+      "inputLabel": "What are your biggest concerns regarding your career?",
+      "inputRequired": false,
+      "spellcheck": true
+    },
+    {
+      "inputName": "concerns",
+      "type": "textArea",
+      "inputLabel": "\"How are you perceived in your current organisation (do you have a strong brand)?",
+      "spellcheck": true,
+      "options": []
+    },
+    {
+      "inputName": "brand",
+      "type": "textArea",
+      "inputLabel": "Are you happy with your current level of success or are you reaching for more?",
+      "spellcheck": true
+    }
+  ]
+}
