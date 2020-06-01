@@ -155,37 +155,39 @@ collections:
               - {label: "on homepage", name: "onHomepage", widget: "boolean", required: false}
   - label: "form"
     name: "form"
-    folder: "src/forms"
-    create: true
-    identifier_field: "formName"
-    fields:
-      - {label: "form Name", hint: "no spaces please", name: "formName", widget: "string"}
-      - {label: "honey Pot",hint: "create a dummy field in your form. The field name must be type hidden_field", name: "honeyPot", widget: "string"}
-      - {label: "submit Button text", name: "submitButton", widget: "string", required: false}
-      - label: "input"
-        name: "input"
-        widget: "list"
+    files: 
+      - label: "forms"
+        name: "forms"
+        delete: false
+        file: "src/_data/forms.json"
         fields:
-          - {label: "input Name", name: "inputName",widget: "string"}
-          - {label: "input Type",name: "type",widget: "select",options: ["field","option","select","textArea","confirm","hidden_field" ]}
-          - {label: "input Label",name: "input label",widget: "string"}
-          - {label: "Default Value",name: "inputData",widget: "string", required: false}
-          - {label: "Required",name: "inputRequired",widget: "boolean", required: false}
-          - {label: "pattern",name: "input Pattern",widget: "string", required: false}
-          - {label: "placeholder",name: "inputPlaceholder",widget: "string",required: false}
-          - {label: "auto complete",name: "autocomplete",widget: "boolean",required: false}
-          - {label: "auto correct",name: "autocorrect",widget: "boolean",required: false}
-          - {label: "spell Check",name: "spellcheck",widget: "boolean",required: false}
-          - {label: "auto Capitalize",name: "autocapitalize",widget: "boolean",required: false}
-          - label: "options"
-            name: "options"
-            hint: "used for multiple select or option. will be ignored for everything else."
-            required: false
+          - {label: "form Name", hint: "no spaces please", name: "formName", widget: "string"}
+          - {label: "action", hint: "relative URL", name: "action", widget: "string"}
+          - {label: "honey Pot",hint: "create a dummy field in your form. The field name must be type hidden_field", name: "honeyPot", widget: "string"}
+          - {label: "submit Button text", name: "submitButton", widget: "string", required: false}
+          - label: "input"
+            name: "input"
             widget: "list"
             fields:
-              - {label: "value", name: "value", widget: "string"}
-              - {label: "display value", name: "display", widget: "string", required: false}
-      - {label: "Description",hint: "description to appear at the top of the form",name: "body", widget: "markdown", required: false}
+              - {label: "input Name", name: "inputName",widget: "string"}
+              - {label: "input Type",name: "type",widget: "select",options: ["field","option","select","textArea","confirm","hidden_field" ]}
+              - {label: "input Label",name: "inputLabel",widget: "string"}
+              - {label: "Default Value",name: "inputData",widget: "string", required: false}
+              - {label: "Required",name: "inputRequired",widget: "boolean", required: false}
+              - {label: "pattern",name: "input Pattern",widget: "string", required: false}
+              - {label: "placeholder",name: "inputPlaceholder",widget: "string",required: false}
+              - {label: "auto complete",name: "autocomplete",widget: "boolean",required: false}
+              - {label: "auto correct",name: "autocorrect",widget: "boolean",required: false}
+              - {label: "spell Check",name: "spellcheck",widget: "boolean",required: false}
+              - {label: "auto Capitalize",name: "autocapitalize",widget: "boolean",required: false}
+              - label: "options"
+                name: "options"
+                hint: "used for multiple select or option. will be ignored for everything else."
+                required: false
+                widget: "list"
+                fields:
+                  - {label: "value", name: "value", widget: "string"}
+                  - {label: "display value", name: "display", widget: "string", required: false}
           
       
       

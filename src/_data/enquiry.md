@@ -1,6 +1,7 @@
 ---
-formName: ProjectEnquiry
+formName: enquiry
 honeyPot: sirname
+action: /thank-you
 submitButton: Send Enquiry
 input:
   - inputName: name
@@ -28,9 +29,7 @@ input:
     input label: When is the best time to contact you?(Melbourne Time)
     options:
       - value: 7am-9am
-        display: 7am-9am
       - value: 9am-12pm
-        display: 9am-12pm
       - value: 12pm-3pm
       - value: 3pm-6pm
       - value: 7pm-10pm
