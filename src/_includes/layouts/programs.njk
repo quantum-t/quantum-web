@@ -10,7 +10,7 @@
   <main id="main-content" class="gap-bottom-max gap-top-800 wrapper programs-grid" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% for program in collections.program %}
-      <div class="program">
+      <div class="program gap-bottom-max gap-top-800 ">
         <h1 class="program__heading">
           {{program.data.title}}
         </h1>
@@ -22,7 +22,7 @@
         </div>
       </div>
     {% endfor %}
-    {% include "partials/components/contact-form.njk" %}
+    {% include "partials/components/forms.njk" %}
   </main>
 <!-- </form> -->
   <script>

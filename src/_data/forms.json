@@ -2,39 +2,39 @@
   "formName": "Enquiry",
   "action": "/thank-you",
   "honeyPot": "sirname",
-  "submitButton": "Submit Entry",
+  "submitButton": "Submit Enquiry",
   "input": [
     {
       "inputName": "name",
       "type": "field",
       "inputLabel": "What is your name?",
-      "inputRequired": true
+      "required": true
     },
     {
       "inputName": "sirname",
       "type": "hidden_field",
       "inputLabel": "sirname",
-      "inputRequired": true
+      "required": true
     },
     {
       "inputName": "program",
       "type": "hidden_field",
       "inputLabel": "program",
-      "inputRequired": true
+      "required": true
     },
     {
       "inputName": "email",
       "type": "field",
       "inputLabel": "What is your email address?",
-      "inputRequired": true,
-      "input Pattern": "[^@]+@[^\\\\.]+\\\\..+"
+      "required": true,
+      "pattern": "[^@]+@[^\\\\.]+\\\\..+"
     },
     {
       "inputName": "phone",
       "type": "field",
       "inputLabel": "What is the best number to contact you on?",
       "inputData": "+61",
-      "inputRequired": true
+      "required": true
     },
     {
       "inputName": "time",
@@ -42,19 +42,19 @@
       "inputLabel": "When is the best time to contact you(Melbourne time)?",
       "options": [
         {
-          "value": "7am-9am"
+          "label": "7am-9am"
         },
         {
-          "value": "9am-12pm"
+          "label": "9am-12pm"
         },
         {
-          "value": "12pm-3pm"
+          "label": "12pm-3pm"
         },
         {
-          "value": "3pm-6pm"
+          "label": "3pm-6pm"
         },
         {
-          "value": "7pm-10pm"
+          "label": "7pm-10pm"
         }
       ]
     },
@@ -68,15 +68,14 @@
       "inputName": "concerns",
       "type": "textArea",
       "inputLabel": "What are your biggest concerns regarding your career?",
-      "inputRequired": false,
+      "required": false,
       "spellcheck": true
     },
     {
       "inputName": "concerns",
       "type": "textArea",
-      "inputLabel": "\"How are you perceived in your current organisation (do you have a strong brand)?",
-      "spellcheck": true,
-      "options": []
+      "inputLabel": "How are you perceived in your current organisation (do you have a strong brand)?",
+      "spellcheck": true
     },
     {
       "inputName": "brand",

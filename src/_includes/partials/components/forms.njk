@@ -1,15 +1,25 @@
-{% from "macros/form.njk" import label, field, textarea,select, button %}
+{% from "macros/form.njk" import label, field, hidden_field, textarea ,select, button %}
 
-{% for forms in collections.forms %}
-  <div>HERE</div>
-{% endfor %}
-<form name="{{enquiry.formName}}shit" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="sirname">
+<form class="gap-bottom-max gap-top-800 " name="{{forms.formName}}" method="POST" data-netlify="true" action="{{forms.action}}" netlify-honeypot="{{forms.honeyPot}}">
   <ol class="[ contact field-list visually-hidden ]">
-    <li class="[ field-list__field-group ]">
-      {{ label("What’s your name?", "name") }}
-      {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
-    </li>
-    <li hidden>
+    {% for inputs in forms.input %}
+      <li class="[ field-list__field-group ]">
+        {% if not (inputs.type == "hidden_field") %}
+          {{ label(inputs.inputLabel, inputs.inputName) }}
+        {% endif %}
+        {% if inputs.type == "field" %}
+          {{ field(inputs.type, inputs.inputName,inputs ) }} 
+        {% elif inputs.type == "hidden_field" %}
+          {{ hidden_field(inputs.inputName ) }} 
+        {% elif inputs.type == "textArea" %}
+        {{ textarea(inputs.inputName, inputs) }} 
+        {% elif inputs.type == "select" %}
+          {{ select("time", inputs.options)}}
+        {% endif %} 
+      </li>
+    {% endfor %}
+    {{ button(forms.submitButton) }}
+    <!-- <li hidden>
       <label>Don’t fill this out if you're human: <input name="sirname" /></label>
     </li>
     <li hidden>
@@ -43,7 +53,6 @@
     <li class="[ field-list__field-group ]">
       {{ label("Are you happy with your current level of success or are you reaching for more?", "happiness") }}
       {{ textarea( "happiness", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
-    </li>
-    {{ button("Send Enquiry") }}
+    </li> -->
   </ol>
 </form>
