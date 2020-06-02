@@ -173,7 +173,6 @@ collections:
               - {label: "input Type",name: "type",widget: "select",options: ["field","option","select","textArea","confirm","hidden_field" ]}
               - {label: "input Label",name: "inputLabel",widget: "string"}
               - {label: "description",hint: "shown in tool tip", name: "description",widget: "string", required: false}
-              - {label: "placeholder",name: "placeholder",widget: "string", required: false}
               - {label: "Required",name: "required",widget: "boolean", required: false}
               - {label: "pattern",name: "pattern",widget: "string", required: false}
               - {label: "placeholder",name: "placeholder",widget: "string",required: false}
