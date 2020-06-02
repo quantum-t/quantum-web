@@ -29,7 +29,8 @@
           "type": "field",
           "inputLabel": "What is your email address?",
           "required": true,
-          "pattern": "[^@]+@[^\\\\.]+\\\\..+"
+          "pattern": "[^@]+@[^\\\\.]+\\\\..+",
+          "placeholder": "email@host.com"
         },
         {
           "inputName": "phone",
