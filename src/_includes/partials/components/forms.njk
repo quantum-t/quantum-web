@@ -1,58 +1,26 @@
 {% from "macros/form.njk" import label, field, hidden_field, textarea ,select, button %}
-
-<form class="gap-bottom-max gap-top-800 " name="{{forms.formName}}" method="POST" data-netlify="true" action="{{forms.action}}" netlify-honeypot="{{forms.honeyPot}}">
-  <ol class="[ contact field-list visually-hidden ]">
-    {% for inputs in forms.input %}
-      <li class="[ field-list__field-group ]">
-        {% if not (inputs.type == "hidden_field") %}
-          {{ label(inputs.inputLabel, inputs.inputName) }}
-        {% endif %}
-        {% if inputs.type == "field" %}
-          {{ field(inputs.type, inputs.inputName,inputs ) }} 
-        {% elif inputs.type == "hidden_field" %}
-          {{ hidden_field(inputs.inputName ) }} 
-        {% elif inputs.type == "textArea" %}
-        {{ textarea(inputs.inputName, inputs) }} 
-        {% elif inputs.type == "select" %}
-          {{ select("time", inputs.options)}}
-        {% endif %} 
-      </li>
-    {% endfor %}
-    {{ button(forms.submitButton) }}
-    <!-- <li hidden>
-      <label>Don’t fill this out if you're human: <input name="sirname" /></label>
-    </li>
-    <li hidden>
-      <label>program selected<input id="selected-program" name="program" /></label>
-    </li>
-    <li class="[ field-list__field-group ]">
-      {{ label("What’s your email address?", "email") }}
-      {{ field( "email", "email", { required: true, placeholder: "example@email.com", autocomplete: "email" } ) }}
-    </li>
-    <li class="[ field-list__field-group ]">
-      {{ label("What’s the best number to contact you on?", "phone") }}
-      {{ field( "phone", "phone", { required: true, autocomplete: "phone" } ) }}
-    </li>
-    <li class="field-list__field-group">
-      {{label("When is the best time to contact you?(Melbourne Time)","time")}}
-
-      {{ select("time", ["7am-9am","9am-12pm","12pm-3pm","3pm-6pm","7pm-10pm"])}}
-    </li>
-    <li class="[ field-list__field-group ]">
-      {{ label("What are some career goals you want to achieve?", "goals") }}
-      {{ textarea( "goals", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
-    </li>
-    <li class="[ field-list__field-group ]">
-      {{ label("What are your biggest concerns regarding your career?", "concerns") }}
-      {{ textarea( "concerns", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
-    </li>
-    <li class="[ field-list__field-group ]">
-      {{ label("How are you perceived in your current organisation (do you have a strong brand)?", "brand") }}
-      {{ textarea( "brand", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
-    </li>
-    <li class="[ field-list__field-group ]">
-      {{ label("Are you happy with your current level of success or are you reaching for more?", "happiness") }}
-      {{ textarea( "happiness", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
-    </li> -->
-  </ol>
-</form>
+{% for form in forms.forms %}
+  {% if form.formName == "Enquiry" %}
+  <form class="gap-bottom-max gap-top-800 " name="{{form.formName}}" method="POST" data-netlify="true" action="{{form.action}}" netlify-honeypot="{{form.honeyPot}}">
+    <ol class="[ contact field-list visually-hidden ]">
+      {% for inputs in form.input %}
+        <li class="[ field-list__field-group ]">
+          {% if not (inputs.type == "hidden_field") %}
+            {{ label(inputs.inputLabel, inputs.inputName) }}
+          {% endif %}
+          {% if inputs.type == "field" %}
+            {{ field(inputs.type, inputs.inputName,inputs ) }} 
+          {% elif inputs.type == "hidden_field" %}
+            {{ hidden_field(inputs.inputName ) }} 
+          {% elif inputs.type == "textArea" %}
+          {{ textarea(inputs.inputName, inputs) }} 
+          {% elif inputs.type == "select" %}
+            {{ select("time", inputs.options)}}
+          {% endif %} 
+        </li>
+      {% endfor %}
+      {{ button(form.submitButton) }}
+    </ol>
+  </form>
+  {% endif %}
+{% endfor %}

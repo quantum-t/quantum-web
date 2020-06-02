@@ -161,33 +161,37 @@ collections:
         delete: false
         file: "src/_data/forms.json"
         fields:
-          - {label: "form Name", hint: "no spaces please", name: "formName", widget: "string"}
-          - {label: "action", hint: "relative URL", name: "action", widget: "string"}
-          - {label: "honey Pot",hint: "create a dummy field in your form. The field name must be type hidden_field", name: "honeyPot", widget: "string"}
-          - {label: "submit Button text", name: "submitButton", widget: "string", required: false}
-          - label: "input"
-            name: "input"
-            widget: "list"
-            fields:
-              - {label: "input Name", name: "inputName",widget: "string"}
-              - {label: "input Type",name: "type",widget: "select",options: ["field","option","select","textArea","confirm","hidden_field" ]}
-              - {label: "input Label",name: "inputLabel",widget: "string"}
-              - {label: "description",hint: "shown in tool tip", name: "description",widget: "string", required: false}
-              - {label: "Required",name: "required",widget: "boolean", required: false}
-              - {label: "pattern",name: "pattern",widget: "string", required: false}
-              - {label: "placeholder",name: "placeholder",widget: "string",required: false}
-              - {label: "auto complete", hint: "'on' or 'off'. see MDN for other values", name: "autocomplete",widget: "string",required: false}
-              - {label: "auto correct",hint: "'on' or 'off'. see MDN for more details", name: "autocorrect",widget: "boolean",required: false}
-              - {label: "spell Check",name: "spellcheck",widget: "boolean",required: false}
-              - {label: "auto Capitalize",name: "autocapitalize",widget: "boolean",required: false}
-              - label: "options"
-                name: "options"
-                hint: "used for multiple select or option. will be ignored for everything else."
-                required: false
-                widget: "list"
-                fields:
-                   - {label: "display value", hint: "what the user sees", name: "label", widget: "string"}
-                   - {label: "value",hint: "what will be submitted with the form. if bank, the label will be used." , name: "value", widget: "string", required: false}
+         - label: "forms"
+           name: "forms"
+           widget: "list"
+           fields:
+            - {label: "form Name", hint: "no spaces please", name: "formName", widget: "string"}
+            - {label: "action", hint: "relative URL", name: "action", widget: "string"}
+            - {label: "honey Pot",hint: "create a dummy field in your form. The field name must be type hidden_field", name: "honeyPot", widget: "string"}
+            - {label: "submit Button text", name: "submitButton", widget: "string", required: false}
+            - label: "input"
+              name: "input"
+              widget: "list"
+              fields:
+                - {label: "input Name", name: "inputName",widget: "string"}
+                - {label: "input Type",name: "type",widget: "select",options: ["field","option","select","textArea","confirm","hidden_field" ]}
+                - {label: "input Label",name: "inputLabel",widget: "string"}
+                - {label: "description",hint: "shown in tool tip", name: "description",widget: "string", required: false}
+                - {label: "Required",name: "required",widget: "boolean", required: false}
+                - {label: "pattern",name: "pattern",widget: "string", required: false}
+                - {label: "placeholder",name: "placeholder",widget: "string",required: false}
+                - {label: "auto complete", hint: "'on' or 'off'. see MDN for other values", name: "autocomplete",widget: "string",required: false}
+                - {label: "auto correct",hint: "'on' or 'off'. see MDN for more details", name: "autocorrect",widget: "boolean",required: false}
+                - {label: "spell Check",name: "spellcheck",widget: "boolean",required: false}
+                - {label: "auto Capitalize",name: "autocapitalize",widget: "boolean",required: false}
+                - label: "options"
+                  name: "options"
+                  hint: "used for multiple select or option. will be ignored for everything else."
+                  required: false
+                  widget: "list"
+                  fields:
+                    - {label: "display value", hint: "what the user sees", name: "label", widget: "string"}
+                    - {label: "value",hint: "what will be submitted with the form. if bank, the label will be used." , name: "value", widget: "string", required: false}
                  
           
       

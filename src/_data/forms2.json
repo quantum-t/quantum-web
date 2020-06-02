@@ -1,9 +1,0 @@
-{
-  "forms": [
-    {
-      "formName": "my form",
-      "action": "t",
-      "honeyPot": "t"
-    }
-  ]
-}

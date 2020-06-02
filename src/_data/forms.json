@@ -1,87 +1,91 @@
 {
-  "formName": "Enquiry",
-  "action": "/thank-you",
-  "honeyPot": "sirname",
-  "submitButton": "Submit Enquiry",
-  "input": [
+  "forms": [
     {
-      "inputName": "name",
-      "type": "field",
-      "inputLabel": "What is your name?",
-      "required": true
-    },
-    {
-      "inputName": "sirname",
-      "type": "hidden_field",
-      "inputLabel": "sirname",
-      "required": true
-    },
-    {
-      "inputName": "program",
-      "type": "hidden_field",
-      "inputLabel": "program",
-      "required": true
-    },
-    {
-      "inputName": "email",
-      "type": "field",
-      "inputLabel": "What is your email address?",
-      "required": true,
-      "pattern": "[^@]+@[^\\\\.]+\\\\..+"
-    },
-    {
-      "inputName": "phone",
-      "type": "field",
-      "inputLabel": "What is the best number to contact you on?",
-      "inputData": "+61",
-      "required": true
-    },
-    {
-      "inputName": "time",
-      "type": "select",
-      "inputLabel": "When is the best time to contact you(Melbourne time)?",
-      "options": [
+      "formName": "Enquiry",
+      "action": "/thank-you",
+      "honeyPot": "sirname",
+      "submitButton": "Submit Enquiry",
+      "input": [
         {
-          "label": "7am-9am"
+          "inputName": "name",
+          "type": "field",
+          "inputLabel": "What is your name?",
+          "required": true
         },
         {
-          "label": "9am-12pm"
+          "inputName": "sirname",
+          "type": "hidden_field",
+          "inputLabel": "sirname",
+          "required": true
         },
         {
-          "label": "12pm-3pm"
+          "inputName": "program",
+          "type": "hidden_field",
+          "inputLabel": "program",
+          "required": true
         },
         {
-          "label": "3pm-6pm"
+          "inputName": "email",
+          "type": "field",
+          "inputLabel": "What is your email address?",
+          "required": true,
+          "pattern": "[^@]+@[^\\\\.]+\\\\..+"
         },
         {
-          "label": "7pm-10pm"
+          "inputName": "phone",
+          "type": "field",
+          "inputLabel": "What is the best number to contact you on?",
+          "inputData": "+61",
+          "required": true
+        },
+        {
+          "inputName": "time",
+          "type": "select",
+          "inputLabel": "When is the best time to contact you(Melbourne time)?",
+          "options": [
+            {
+              "label": "7am-9am"
+            },
+            {
+              "label": "9am-12pm"
+            },
+            {
+              "label": "12pm-3pm"
+            },
+            {
+              "label": "3pm-6pm"
+            },
+            {
+              "label": "7pm-10pm"
+            }
+          ]
+        },
+        {
+          "inputName": "goals",
+          "type": "textArea",
+          "inputLabel": "What are some career goals you want to achieve?",
+          "spellcheck": true
+        },
+        {
+          "inputName": "concerns",
+          "type": "textArea",
+          "inputLabel": "What are your biggest concerns regarding your career?",
+          "required": false,
+          "spellcheck": true
+        },
+        {
+          "inputName": "concerns",
+          "type": "textArea",
+          "inputLabel": "How are you perceived in your current organisation (do you have a strong brand)?",
+          "spellcheck": true
+        },
+        {
+          "inputName": "brand",
+          "type": "textArea",
+          "inputLabel": "Are you happy with your current level of success or are you reaching for more?",
+          "spellcheck": true
         }
       ]
-    },
-    {
-      "inputName": "goals",
-      "type": "textArea",
-      "inputLabel": "What are some career goals you want to achieve?",
-      "spellcheck": true
-    },
-    {
-      "inputName": "concerns",
-      "type": "textArea",
-      "inputLabel": "What are your biggest concerns regarding your career?",
-      "required": false,
-      "spellcheck": true
-    },
-    {
-      "inputName": "concerns",
-      "type": "textArea",
-      "inputLabel": "How are you perceived in your current organisation (do you have a strong brand)?",
-      "spellcheck": true
-    },
-    {
-      "inputName": "brand",
-      "type": "textArea",
-      "inputLabel": "Are you happy with your current level of success or are you reaching for more?",
-      "spellcheck": true
     }
   ]
 }
