@@ -32,7 +32,12 @@
       document.querySelectorAll('.program').forEach((e) => e.classList.add('visually-hidden'))
       document.querySelectorAll('.contact').forEach((e) => e.classList.remove('visually-hidden'))
       document.getElementById('field-program').value = program
-    
+      document.getElementById('field-name').focus()
+      window.scrollTo({
+        top:100,
+        left:0,
+        behavior: 'smooth'
+      })
     }))  
                                                       
   </script>

@@ -1,7 +1,7 @@
 {% from "macros/form.njk" import label, field, hidden_field, textarea ,select, button %}
 {% for form in forms.forms %}
   {% if form.formName == "Enquiry" %}
-  <form class="gap-bottom-max gap-top-800 " name="{{form.formName}}" method="POST" data-netlify="true" action="{{form.action}}" netlify-honeypot="{{form.honeyPot}}">
+  <form id="form-{{form.formName}}" name="{{form.formName}}" method="POST" data-netlify="true" action="{{form.action}}" netlify-honeypot="{{form.honeyPot}}">
     <ol class="[ contact field-list visually-hidden ]">
       {% for inputs in form.input %}
         <li class="[ field-list__field-group ]">
