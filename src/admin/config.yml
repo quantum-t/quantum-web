@@ -37,6 +37,14 @@ collections:
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
+      - label: "files"
+        name: "files"
+        widget: "list"
+        fields: 
+          - {label: "file", name: "file", widget: "file", media_library: "/src/media"}
+          - {label: "description", name: "description", widget: "string"}
+          - {label: "thumbnail", name: "thumbnail", widget: "string", required: false}
+          - {label: "button", name: "button", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Globals"
     name: "globals"
