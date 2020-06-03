@@ -75,7 +75,7 @@
           "spellcheck": true
         },
         {
-          "inputName": "concerns",
+          "inputName": "brand",
           "type": "textArea",
           "inputLabel": "How are you perceived in your current organisation (do you have a strong brand)?",
           "spellcheck": true
@@ -107,7 +107,7 @@
         },
         {
           "inputName": "Surname",
-          "type": "textArea",
+          "type": "field",
           "inputLabel": "Surname",
           "description": "Persons Surname",
           "required": true,
