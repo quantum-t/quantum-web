@@ -89,28 +89,29 @@
       ]
     },
     {
-      "formName": "Book Pre-order information",
+      "formName": "subscribe",
       "honeyPot": "Surname",
       "submitButton": "Submit Enquiry",
       "input": [
         {
-          "inputName": "First Name",
-          "type": "textArea",
-          "inputLabel": "First Name",
-          "description": "Persons First Name",
+          "inputName": "Name",
+          "type": "field",
+          "inputLabel": "Please enter your name",
+          "description": "",
           "required": true,
           "options": [
             {
               "label": "First Name"
             }
-          ]
+          ],
+          "autocapitalize": true
         },
         {
           "inputName": "Surname",
-          "type": "field",
+          "type": "hidden_field",
           "inputLabel": "Surname",
           "description": "Persons Surname",
-          "required": true,
+          "required": false,
           "options": [
             {
               "label": "Surname"
