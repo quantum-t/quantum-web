@@ -15,7 +15,7 @@
         {
           "inputName": "surname",
           "type": "hidden_field",
-          "inputLabel": "sirname",
+          "inputLabel": "surname",
           "required": true
         },
         {
