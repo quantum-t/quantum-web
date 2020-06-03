@@ -5,6 +5,12 @@
   "shortDesc": "Quantum Transformation is a coaching and mentoring business aimed at assisting front line leaders manage transformations within their organisations.  ",
   "url": "https://quantumtransformation.com.au",
   "authorEmail": "marybeth@quantumtransformation.com.au",
+  "heroBox": [
+    {
+      "show": true,
+      "content": "# book launching soon\n\nMary-Beth has written a book that will change your perspective of change itself, and give you the tools to survive change in any organisation.\n\nIf you want to be in the know, and get notified of the upcoming launch, enter your details below!\n\n<form name=\"subscribe\"></form>"
+    }
+  ],
   "authorHandle": "",
   "authorName": "Mary-Beth Hosking",
   "enableThirdPartyComments": false,
