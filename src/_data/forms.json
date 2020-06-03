@@ -3,7 +3,7 @@
     {
       "formName": "Enquiry",
       "action": "/thank-you",
-      "honeyPot": "sirname",
+      "honeyPot": "surname",
       "submitButton": "Submit Enquiry",
       "input": [
         {
@@ -13,7 +13,7 @@
           "required": true
         },
         {
-          "inputName": "sirname",
+          "inputName": "surname",
           "type": "hidden_field",
           "inputLabel": "sirname",
           "required": true
@@ -83,7 +83,7 @@
         {
           "inputName": "brand",
           "type": "textArea",
-          "inputLabel": "Are you happy with your current level of success or are you reaching for more?",
+          "inputLabel": "What level of success are you striving for?",
           "spellcheck": true
         }
       ]
