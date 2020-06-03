@@ -87,6 +87,49 @@
           "spellcheck": true
         }
       ]
+    },
+    {
+      "formName": "Book Pre-order information",
+      "honeyPot": "Surname",
+      "submitButton": "Submit Enquiry",
+      "input": [
+        {
+          "inputName": "First Name",
+          "type": "textArea",
+          "inputLabel": "First Name",
+          "description": "Persons First Name",
+          "required": true,
+          "options": [
+            {
+              "label": "First Name"
+            }
+          ]
+        },
+        {
+          "inputName": "Surname",
+          "type": "textArea",
+          "inputLabel": "Surname",
+          "description": "Persons Surname",
+          "required": true,
+          "options": [
+            {
+              "label": "Surname"
+            }
+          ]
+        },
+        {
+          "inputName": "Email Address",
+          "type": "textArea",
+          "inputLabel": "Email Address",
+          "required": true,
+          "options": [
+            {
+              "label": "Email Address"
+            }
+          ]
+        }
+      ],
+      "action": "/thank-you"
     }
   ]
 }
