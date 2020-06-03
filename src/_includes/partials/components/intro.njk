@@ -8,6 +8,21 @@
 {% endif %}
   <h2 class="intro__subHeading">{{introSub}}</h2>
 </header>
+{% if site.heroBox and (pageType == 'Homepage')%}
+{% for hero in site.heroBox %}
+  {% if hero.show %}
+    {% set heroContent %}
+      {{ hero.content | safe }}
+    {% endset %}
+    <div class="hero gap-bottom-800">
+      {{heroContent | safe}}
+      {% set thisForm = "subscribe" %}
+      {% include "partials/components/forms.njk" %}
+    </div>
+  {% endif %}
+{% endfor %}
+  
+{% endif %}
 {% if introSummary %}
 <div class="[ intro__summary gap-top-800 pad-left-300 ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
 {% endif %}

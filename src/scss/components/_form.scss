@@ -1,9 +1,5 @@
 /* Form */
 
-form {
-  max-width: 35rem;
-}
-
 form br {
   display: none;
 }
@@ -56,6 +52,7 @@ legend {
 
 .field-list__field-group {
   margin: 2rem;
+  min-width: 100px;
   transition: transform 150ms;
 
   &__description {

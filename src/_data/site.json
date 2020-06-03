@@ -8,7 +8,7 @@
   "heroBox": [
     {
       "show": true,
-      "content": "# book launching soon\n\nMary-Beth has written a book that will change your perspective of change itself, and give you the tools to survive change in any organisation.\n\nIf you want to be in the know, and get notified of the upcoming launch, enter your details below!\n\n<form name=\"subscribe\"></form>"
+      "content": "<h1>book launching soon...</h1><p>Mary-Beth has written a book that will change your perspective of change itself, and give you the tools to survive change in any organisation.</p><p>If you want to be in the know, and get notified of the upcoming launch, enter your details below!</p>"
     }
   ],
   "authorHandle": "",

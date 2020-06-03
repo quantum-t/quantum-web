@@ -91,7 +91,7 @@
     {
       "formName": "subscribe",
       "honeyPot": "Surname",
-      "submitButton": "Submit Enquiry",
+      "submitButton": "get notified 🚀",
       "input": [
         {
           "inputName": "Name",
@@ -99,11 +99,6 @@
           "inputLabel": "Please enter your name",
           "description": "",
           "required": true,
-          "options": [
-            {
-              "label": "First Name"
-            }
-          ],
           "autocapitalize": true
         },
         {
@@ -111,23 +106,14 @@
           "type": "hidden_field",
           "inputLabel": "Surname",
           "description": "Persons Surname",
-          "required": false,
-          "options": [
-            {
-              "label": "Surname"
-            }
-          ]
+          "required": false
         },
         {
           "inputName": "Email Address",
-          "type": "textArea",
-          "inputLabel": "Email Address",
-          "required": true,
-          "options": [
-            {
-              "label": "Email Address"
-            }
-          ]
+          "type": "field",
+          "inputLabel": "Email",
+          "required": true
+          
         }
       ],
       "action": "/thank-you"

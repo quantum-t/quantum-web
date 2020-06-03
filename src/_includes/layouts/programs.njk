@@ -22,10 +22,11 @@
         </div>
       </div>
     {% endfor %}
+    {% set thisForm = "Enquiry" %}
     {% include "partials/components/forms.njk" %}
   </main>
-<!-- </form> -->
   <script>
+    document.querySelectorAll('.contact').forEach((e) => e.classList.add('visually-hidden'))
     document.querySelectorAll('.program .button').forEach((e) => e.addEventListener('click', (ev) => {
       ev.preventDefault();
       let program = ev.target.parentElement.childNodes[0].textContent

@@ -3,6 +3,9 @@
   flex-direction:column;
   justify-content: center;
   row-gap:2em;
+  form {
+    max-width: 35rem;
+  }
   @media (min-width: 768px) { 
     .intro__headings {
       margin-left: auto;

@@ -1,13 +1,17 @@
 {% from "macros/form.njk" import label, field, hidden_field, textarea ,select, button %}
 {% for form in forms.forms %}
-  {% if form.formName == "Enquiry" %}
-  <form id="form-{{form.formName}}" name="{{form.formName}}" method="POST" data-netlify="true" action="{{form.action}}" netlify-honeypot="{{form.honeyPot}}">
-    <ol class="[ contact field-list visually-hidden ]">
+  {% if form.formName == thisForm %}
+  <form class="{{form.formName}}" id="form-{{form.formName}}" name="{{form.formName}}" method="POST" data-netlify="true" action="{{form.action}}" netlify-honeypot="{{form.honeyPot}}">
+    <ol class="[ contact field-list ]">
       {% for inputs in form.input %}
-        <li class="[ field-list__field-group ]">
-          {% if not (inputs.type == "hidden_field") %}
-            {{ label(inputs.inputLabel, inputs.inputName) }}
-          {% endif %}
+        {% if (inputs.type == "hidden_field") %}
+          {% set classList = "visually-hidden" %}    
+        {% else %}
+          {% set classList = "field-list__field-group" %}    
+        {% endif %}
+        <li class="  {{classList}} ">
+          
+          {{ label(inputs.inputLabel, inputs.inputName) }}
           {% if inputs.type == "field" %}
             {{ field(inputs.type, inputs.inputName,inputs ) }} 
           {% elif inputs.type == "hidden_field" %}
