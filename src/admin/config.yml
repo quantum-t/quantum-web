@@ -41,7 +41,7 @@ collections:
         name: "files"
         widget: "list"
         fields: 
-          - {label: "file", name: "file", widget: "file", media_library: "/src/media"}
+          - {label: "file", name: "file", widget: "file" }
           - {label: "description", name: "description", widget: "string"}
           - {label: "thumbnail", name: "thumbnail", widget: "string", required: false}
           - {label: "button", name: "button", widget: "string", required: false}
