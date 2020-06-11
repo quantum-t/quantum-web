@@ -39,14 +39,12 @@ const Home = ({ entry }) => (
   />
 );
 
-const Post = ({ entry }) => (
+const References = ({ entry }) => (
   <Preview
     entry={entry}
-    path="layouts/post.njk"
-    context={({ title, date, body }) => ({
-      title,
-      date,
-      content: markdownFilter(body || ''),
+    path="partials/components/reference.njk"
+    context={({ references }) => ({
+      references,
     })}
   />
 );
@@ -93,3 +91,4 @@ CMS.registerPreviewTemplate('posts', Post);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);
+CMS.registerPreviewTemplate('references', References);
