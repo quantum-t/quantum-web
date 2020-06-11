@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: In One Piece Templates
-permalink: iop-templates
+permalink: iop-templates.html
 files:
   - file: /images/example-file.pdf
     description: example file for upload
