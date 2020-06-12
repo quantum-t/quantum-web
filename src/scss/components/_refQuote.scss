@@ -21,6 +21,9 @@
       100% 100%,
       0% 100%
     );
+    @supports (-ms-ime-align:auto) {
+      width:10%;
+    }
   }
   > span::before {
     content: "";
@@ -44,6 +47,9 @@
       0 100%,
       100% 100%
     );
+    @supports (-ms-ime-align:auto) {
+      width:10%;
+    }
   }
 }
 

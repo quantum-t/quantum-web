@@ -42,7 +42,7 @@ const Home = ({ entry }) => (
 const References = ({ entry }) => (
   <Preview
     entry={entry}
-    path="partials/components/reference.njk"
+    path="layouts/references_page.njk"
     context={({ references }) => ({
       references,
     })}
