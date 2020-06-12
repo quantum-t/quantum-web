@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+local_backend: true
 site_url: "https://github.com/quantum-t/quantum-web"
 media_folder: "src/images"
 public_folder: "/images"
