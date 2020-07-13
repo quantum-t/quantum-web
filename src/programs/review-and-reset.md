@@ -15,9 +15,11 @@ The package typically includes:
 * Personal SWOT and Brand
 * Mentoring & leadership support
 * High level introduction to “In One Piece - a step by step guide to surviving change"
-* 2 x 15 minute coach calls – When you need to bounce ideas around or need some guidance
 
   3 months access to Quantum Links - LinkedIn support and online branding
+* 2 x 15 minute coach calls – When you need to bounce ideas around or need some guidance
+
+
 
 ## Networking
 
