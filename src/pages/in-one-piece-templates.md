@@ -7,6 +7,8 @@ files:
     description: example file for upload
     thumbnail: should be an image
 ---
-Your Exclusive Content here:
+Thank you for purchasing **"In One Piece - A step by step guide to surviving change".**
+
+Your exclusive templates can be downloaded here:
 
 <a href="../images/iop-templates.zip">iop-templates.zip</a>
