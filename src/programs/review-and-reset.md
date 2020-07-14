@@ -1,8 +1,8 @@
 ---
 title: Review and Reset
 programPrice: $4,500
-btnText: Enquire Now
 tags: program
+btnText: Enquire Now
 ---
 This package aims to review your personal goals looking to enhance your leadership style and reset your leadership brand.  
 
@@ -22,3 +22,5 @@ The package typically includes:
 Advice on networking events pertinent to your role
 
 LinkedIn support
+
+3 months access to Quantum Links - LinkedIn support and online branding
