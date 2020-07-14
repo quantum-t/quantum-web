@@ -7,4 +7,6 @@ files:
     description: example file for upload
     thumbnail: should be an image
 ---
-Download your content here...
+Your Exclusive Content here:
+
+<a href="../images/iop-templates.zip">iop-templates.zip</a>
