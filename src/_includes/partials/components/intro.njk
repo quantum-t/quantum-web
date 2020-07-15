@@ -8,16 +8,17 @@
 {% endif %}
   <h2 class="intro__subHeading">{{introSub}}</h2>
 </header>
+
 {% if site.heroBox and (pageType == 'Homepage')%}
 {% for hero in site.heroBox %}
   {% if hero.show %}
-    {% set heroContent %}
-      {{ hero.content | safe }}
-    {% endset %}
     <div class="hero gap-bottom-800">
-      {{heroContent | safe}}
-      {% set thisForm = "subscribe" %}
-      {% include "partials/components/forms.njk" %}
+      <img class= " hero__image " src={{hero.image}} alt="Book Cover">
+      <div class="hero__content">
+        {{ hero.content | safe }}
+        {% set thisForm = "subscribe" %}
+        {% include "partials/components/forms.njk" %}
+      </div>
     </div>
   {% endif %}
 {% endfor %}

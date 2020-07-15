@@ -36,23 +36,41 @@
     padding: 1em 2em;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    .subscribe > .contact {
+    @media (min-width: 768px) { 
+      flex-direction: row;
+    }
+    .subscribe  .contact {
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin: 1em 0;
-      @media (min-width: 768px) { 
-        flex-direction: row;
-        justify-content: space-between;
-      }
+      // @media (min-width: 768px) { 
+      //   flex-direction: row;
+      //   justify-content: space-between;
+      // }
       .field-list__field-group {
         margin: 1em 0;
         min-width: 100px;
-        @media (min-width: 768px) { 
-          margin: 0em;
-        }
+        // @media (min-width: 768px) { 
+        //   margin: 0em;
+        // }
       }
+    }
+    
+    a:not([class]) {
+      color: var(--color-dark);
+      position: relative;
+      display: inline-block;
+      background: var(--color-theme-highlight);
+      padding: 0.2rem 0.4rem 0.3rem 0.4rem;
+      text-decoration: none;
+      word-break: break-word;
+
+      @include apply-utility('leading', 'tight');
+    }
+
+    a:not([class]):hover {
+      text-decoration: underline;
     }
   }
   .inspired {
