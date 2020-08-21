@@ -20,17 +20,15 @@ Mary-Beth Hosking is a pragmatic and seasoned technology leader with extensive e
 
 <!--EndFragment-->
 
-
-
 ### Podcasts
 
-* <!--StartFragment-->
+<!--StartFragment-->
 
-  <https://podtail.com/en/podcast/the-mind-to-lead/>
+**https://tinyurl.com/y5ycsn74** 
 
-  Episode 25 - Change starts with you
+**Podcast with Annie Gibbons - Episode 17 Memoirs of Successful Women**
 
-  <!--EndFragment-->
+<!--EndFragment-->
 
 ### Achievements
 
