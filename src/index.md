@@ -28,7 +28,11 @@ https://podtail.com/en/podcast/the-mind-to-lead/
 
 Episode 25 - Change starts with you
 
-**https://tinyurl.com/y5ycsn74** 
+<!--EndFragment-->
+
+<!--StartFragment-->
+
+<https://www.anniegibbins.com/podcast/>
 
 Episode 17 - Memoirs of Successful Women
 
