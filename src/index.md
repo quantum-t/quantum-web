@@ -34,7 +34,7 @@ Episode 25 - Change starts with you
 
 <https://www.anniegibbins.com/podcast/>
 
-Episode 17 - Memoirs of Successful Women
+Episode 17 - Developing sustainable change leadership
 
 <!--EndFragment-->
 
