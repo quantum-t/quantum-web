@@ -24,13 +24,11 @@ Mary-Beth Hosking is a pragmatic and seasoned technology leader with extensive e
 
 <!--StartFragment-->
 
-https://podtal.com/en/podcast/the-mind-to-lead/
+https://podtail.com/en/podcast/the-mind-to-lead/
 
 Episode 25 - Change starts with you
 
 <!--EndFragment-->
-
-### Podcasts
 
 <!--StartFragment-->
 
