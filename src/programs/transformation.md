@@ -32,6 +32,6 @@ Advice on networking events pertinent to your role
 
 Linkedin support
 
-6 months access to Quantum Links - LinkedIn support and online branding
+6 months access to Quantum Links - LinkedIn support network and online branding
 
 <!--EndFragment-->
