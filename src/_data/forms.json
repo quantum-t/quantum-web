@@ -29,7 +29,7 @@
           "type": "field",
           "inputLabel": "What is your email address?",
           "required": false,
-          "pattern": "[^@]+@[^\\\\.]+\\\\..+",
+          "pattern": "",
           "placeholder": "email@host.com"
         },
         {
