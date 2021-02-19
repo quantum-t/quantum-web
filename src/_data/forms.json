@@ -28,7 +28,7 @@
           "inputName": "email",
           "type": "field",
           "inputLabel": "What is your email address?",
-          "required": true,
+          "required": false,
           "pattern": "[^@]+@[^\\\\.]+\\\\..+",
           "placeholder": "email@host.com"
         },
@@ -113,7 +113,6 @@
           "type": "field",
           "inputLabel": "Email",
           "required": true
-          
         }
       ],
       "action": "/thank-you"
