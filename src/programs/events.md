@@ -15,4 +15,3 @@ She is speaking at the following upcoming events:
 
 * Australian CIO Summit - Gold Coast Australia - 5th & 6th September - As key note and 
 * ANZ CIO Sit-Down - Melbourne Australia - 21st September
-*
