@@ -48,6 +48,7 @@ Episode 17 - Developing sustainable change leadership
 
 * Masters in Business and Technology
 * Author of "In One Piece - a step by step guide to surviving change"
+* Author of "From Singer to CIO - A story of resiliency, transformation and recognizing your value"
 
 ### Awards
 
