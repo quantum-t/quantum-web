@@ -42,7 +42,7 @@
         {
           "inputName": "time",
           "type": "select",
-          "inputLabel": "When is the best time to contact you(Melbourne time)?",
+          "inputLabel": "When is the best time to contact you (AEST time)?",
           "options": [
             {
               "label": "7am-9am"
@@ -60,31 +60,6 @@
               "label": "7pm-10pm"
             }
           ]
-        },
-        {
-          "inputName": "goals",
-          "type": "textArea",
-          "inputLabel": "What are some career goals you want to achieve?",
-          "spellcheck": true
-        },
-        {
-          "inputName": "concerns",
-          "type": "textArea",
-          "inputLabel": "What are your biggest concerns regarding your career?",
-          "required": false,
-          "spellcheck": true
-        },
-        {
-          "inputName": "brand",
-          "type": "textArea",
-          "inputLabel": "How are you perceived in your current organisation (do you have a strong brand)?",
-          "spellcheck": true
-        },
-        {
-          "inputName": "brand",
-          "type": "textArea",
-          "inputLabel": "What level of success are you striving for?",
-          "spellcheck": true
         }
       ]
     },
