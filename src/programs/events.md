@@ -11,7 +11,9 @@ Mary-Beth  has spoken at the following events:
 * ANZ CFO Summit - Melbourne
 * CIO/CISO Virtual Roundtable
 
-She is speaking at the following upcoming events:
+Mary-Beth is speaking at the following upcoming events:
 
 * Australian CIO Summit - Gold Coast Australia - 5th & 6th September - As key note and 
 * ANZ CIO Sit-Down - Melbourne Australia - 21st September
+* CIO Summit - Focus Events - Melbourne Australia - 8th November
+* CIO & CISO Executive Summit - Melbourne Australia - 17th November
