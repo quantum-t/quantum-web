@@ -44,6 +44,14 @@ Episode 17 - Developing sustainable change leadership
 
 <!--EndFragment-->
 
+<!--StartFragment-->
+
+[How To Engage With Senior Leaders — meetmagic – Connecting the business world  for good](https://www.meetmagic.org/how-to-engage-with-senior-leaders)
+
+Episode 3 - How to engage with Senior Leader
+
+<!--EndFragment-->
+
 ### Achievements
 
 * Masters in Business and Technology
